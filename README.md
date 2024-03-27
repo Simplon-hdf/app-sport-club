@@ -99,9 +99,81 @@ Ce dépôt est une structure permettant de démarrer un projet professionnel ou 
   Dans le cadre de la formation CDA dispensé par Simplon, mon équipe doit réaliser un projet Fil-Rouge.<br>
 </p>
 <p dir="auto">
-  Ce projet consiste à développer une application pour un club sportif proposant des terrains de squash, de badminton et de tennis de table.<br>
-  L'objectif principal de cette application est de faciliter la recherche de partenaires de jeu en offrant une plateforme permettant aux joueurs de se connecter et de jouer ensemble, quel que soit leur niveau
-  d'expérience.
+  Ce projet vise à développer une application pour un club sportif offrant des terrains de squash, de badminton et de tennis de table.<br> 
+  L'objectif principal de cette application est de simplifier la gestion des réservations et de faciliter la recherche de partenaires de jeu en permettant aux joueurs de se connecter et de jouer ensemble, indépendamment de leur niveau d'expérience.
+</p>
+
+## Project Description
+<div class="markdown-heading" dir="auto">
+  <h1 tabindex="-1" class="heading-element" dir="auto">🗒 Documentation relative au projet
+    <a id="user-content-project-doc"></a>
+  </h1>
+  <a 
+    id="user-content--documentation-relative-au-projet-" 
+    class="anchor" 
+    aria-label="Permalink: 🗒 Documentation relative au projet " 
+    href="#-documentation-relative-au-projet-"
+  >
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</div>
+<div class="markdown-heading" dir="auto">
+  <h2 tabindex="-1" class="heading-element" dir="auto">📣 Présentation du projet <a id="user-content-project-presentation"></a></h2>
+  <a id="user-content--présentation-du-projet-" class="anchor" aria-label="Permalink: 📣 Présentation du projet " href="#-présentation-du-projet-">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</div>
+<p dir="auto">
+  Dans le cadre de ce projet, nous avons dû rédiger des documents afin de présenter à notre client (Bad's Club) des pistes d'amélioration au sein du club. 
+</p>
+
+<div class="markdown-heading" dir="auto">
+  <h1 tabindex="-1" class="heading-element" dir="auto">Contexte</h1>
+  <a id="user-content-contexte" class="anchor" aria-label="Permalink: Contexte" href="#contexte">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</div>
+<p dir="auto">
+  Le Bad's Club, situé dans le 7ème arrondissement de Lyon à proximité de la station de métro Jean Macé, est un espace sportif et lounge de plus de 1500m2 entièrement réhabilité.<br>
+  Avec ses 4 terrains de badminton, 5 terrains de squash et 4 terrains de tennis de table, le club propose des activités sportives variées pour tous les niveaux.
+</p>
+<p dir="auto">
+  Le club dispose également d'un espace bar et restaurant climatisé, où les clients peuvent se détendre autour d'un verre et déguster l'une des nombreuses formules proposées.<br>
+  Le lieu est idéal pour partager une session de sport et de détente ou organiser des tournois sportifs.
+</p>
+<p dir="auto">
+  Les réservations et la fidélisation des clients sont des enjeux majeurs pour les finances du club.<br>
+  En offrant une expérience de réservation simplifiée et en permettant aux clients d'améliorer leur niveau de jeu grâce à la recherche de partenaires de jeu adaptés, le Bad's Club pourra se démarquer de la concurrence et fidéliser ses adherants.<br> 
+  Entant donné qu’il s’aggit des sports collectives de raquette, permetre au gens de trouver des partenaires de jeux est un element crucial pour se type de stabisement.L'application permettra de répondre à ces enjeux tout en offrant une expérience de sport complète et agréable pour ses membres.
+</p>
+<p dir="auto">
+  Cependant, trouver un partenaire de jeu peut parfois être un obstacle pour les clients souhaitant réserver un terrain.<br>
+  Pour cela il est cruciel d’offrir aux clients une solution qui leur facilitera la recherche de partenaires de jeu et ainsi, se démarquer de la concurrence et insiter les adherants à revenir régulièrement.
+</p>
+<p dir="auto">
+  En proposant une expérience de réservation fluide et en offrant la possibilité aux clients de trouver des partenaires de jeu adaptés à leur niveau, le Bad's Club pourra se différencier de la concurrence et fidéliser sa clientèle.
+</p>
+
+## Author
+<div class="markdown-heading" dir="auto">
+  <h1 tabindex="-1" class="heading-element" dir="auto">👥 Identification de l'équipe en charge du projet</h1>
+  <a id="user-content--identification-de-léquipe-en-charge-du-projet" class="anchor" aria-label="Permalink: 👥 Identification de l'équipe en charge du projet" href="#-identification-de-léquipe-en-charge-du-projet">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</div>
+<p dir="auto">L'équipe est constituée de 2 membres :</p>
+<ul dir="auto">
+  <li>
+    <p dir="auto"><strong>MADDELEIN Jean-Benoit</strong> qui a le rôle de <strong>Product Owner</strong> dont la fonction est entre autre de prendre en charge les interactions
+    entre l'équipe en charge du projet et le client.</p>
+  </li>
+  <li>
+    <p dir="auto"><strong>GONZALEZ CAMARGO Ximena</strong> qui a le rôle de <strong>Scrum Master</strong> dont la fonction est de diriger les membres de l'équipe en charge du projet et d'assigner des tâches à chacun.</p>
+  </li>
+</ul>
+<p dir="auto">
+  Nous travaillons donc en Méthode Agile (SCRUM) qui est une méthodologie utilisée au sein des entreprises dans la majorité des cas.<br>
+  Note : Le <strong>Product Owner</strong> ainsi que le <strong>Scrum Master</strong> aient également pour rôle de développer, certaines responsabilités sont propres à ces rôles spécifiques.
 </p>
 
 ## License
