@@ -432,110 +432,107 @@ Notre analyse et notre proposition de stratégie sont détaillées dans ce docum
   <thead>
     <tr>
       <th>Critères</th>
-      <th>ReactJS</th>
-      <th>Angular</th>
-      <th>Vue.js</th>
+      <th>Laravel</th>
+      <th>Symfony</th>
+      <th>CodeIgniter</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Personnalisation</td>
+  <tbody> 
+  <tr> 
+    <td>Personnalisation</td>
+    <td>3</td>
+    <td>4</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Rapidité</td>
+    <td>2</td>
+    <td>3</td>
+    <td>3</td>
+    </tr> 
+  <tr>
+    <td>Popularité</td> 
+    <td>3</td> 
+    <td>2</td> 
+    <td>1</td> 
+  </tr>
+  <tr> 
+    <td>Maturité</td>
+    <td>2</td>
+    <td>4</td>
+    <td>2</td>
+  </tr> 
+  <tr>
+    <td>Releases</td>
+    <td>3</td>
+    <td>2</td>
+    <td>1</td>
+  </tr> 
+  <tr>
+    <td>Bonnes pratiques</td>
       <td>3</td>
-      <td>1</td>
+      <td>4</td>
       <td>2</td>
-    </tr>
-    <tr>
-      <td>Rapidité</td>
-      <td>2</td>
-      <td>2</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Popularité</td>
-      <td>3</td>
-      <td>2</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>Maturité</td>
-      <td>2</td>
-      <td>2</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>Releases</td>
-      <td>1</td>
-      <td>3</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>Bonnes pratiques</td>
-      <td>2</td>
-      <td>3</td>
-      <td>3</td>
-    </tr>
+    </tr> 
     <tr>
       <td>Stars Github</td>
+      <td>2</td> <td>4</td>
       <td>3</td>
-      <td>2</td>
-      <td>3</td>
-    </tr>
-    <tr>
+    </tr> 
+    <tr> 
       <td>Equipe Développement</td>
       <td>3</td>
-      <td>2</td>
+      <td>4</td>
       <td>1</td>
-    </tr>
-    <tr>
+    </tr> 
+    <tr> 
       <td>Communauté Github</td>
       <td>2</td>
-      <td>2</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>Communauté StackOverflow</td>
-      <td>2</td>
       <td>3</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>Documentation</td>
-      <td>2</td>
+      <td>Communauté StackOverflow</td> 
       <td>3</td>
       <td>2</td>
-    </tr>
-    <tr>
-    </tr>
-    <tr>
-      <td>Mariage librairies</td>
-      <td>1</td>
-      <td>1</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>Prise Politique</td>
-      <td>0</td>
+      <td>Documentation</td> 
+      <td>3</td>
+      <td>4</td>
+      <td>2</td>
+    </tr> 
+    <tr>
+      <td>Mariage librairies</td> 
       <td>1</td>
-      <td>1</td>
-    </tr>
+      <td>3</td>
+      <td>2</td>
+    </tr> 
     <tr>
-      <td>Tarifs</td>
-      <td>Gratuit</td>
-      <td>Gratuit</td>
-      <td>Gratuit</td>
-    </tr>
+      <td>Prise Politique</td> 
+      <td>1</td> 
+      <td>2</td> 
+      <td>1</td> 
+    </tr> 
     <tr>
-      <td>License</td>
-      <td>MIT</td>
-      <td>MIT</td>
-      <td>MIT</td>
-    </tr>
-    <tr>
-      <td>Total</td>
-      <td>26</td>
-      <td>27</td>
-      <td>23</td>
-    </tr>
+      <td>Tarifs</td> 
+      <td>Gratuit</td> 
+      <td>Gratuit</td> 
+      <td>Gratuit</td> 
+    </tr> 
+    <tr> 
+      <td>License</td> 
+      <td>MIT</td> 
+      <td>MIT</td> 
+      <td>MIT</td> 
+    </tr> 
+    <tr> 
+      <td>Total</td> 
+      <td>27</td> 
+      <td>35</td> 
+      <td>17</td> 
+    </tr> 
   </tbody>
 </table>
 
