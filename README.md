@@ -452,8 +452,8 @@ Notre analyse et notre proposition de stratégie sont détaillées dans ce docum
     </tr> 
   <tr>
     <td>Popularité</td> 
-    <td>3</td> 
     <td>2</td> 
+    <td>3</td> 
     <td>1</td> 
   </tr>
   <tr> 
@@ -529,8 +529,8 @@ Notre analyse et notre proposition de stratégie sont détaillées dans ce docum
     </tr> 
     <tr> 
       <td>Total</td> 
-      <td>27</td> 
-      <td>30</td> 
+      <td>26</td> 
+      <td>31</td> 
       <td>17</td> 
     </tr> 
   </tbody>
