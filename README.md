@@ -99,7 +99,9 @@ Ce dépôt est une structure permettant de démarrer un projet professionnel ou 
   Dans le cadre de la formation CDA dispensé par Simplon, mon équipe doit réaliser un projet Fil-Rouge.<br>
 </p>
 <p dir="auto">
-  Ce projet vise à développer une application pour un club sportif offrant des terrains de squash, de badminton et de tennis de table.<br> 
+  Ce projet vise à développer une application pour un club sportif offrant des terrains de squash, de badminton et de tennis de table.
+</p>
+<p dir="auto">
   L'objectif principal de cette application est de simplifier la gestion des réservations et de faciliter la recherche de partenaires de jeu en permettant aux joueurs de se connecter et de jouer ensemble, indépendamment de leur niveau d'expérience.
 </p>
 
@@ -193,8 +195,8 @@ Notre analyse et notre proposition de stratégie sont détaillées dans ce docum
 </p> 
 
 <div class="markdown-heading" dir="auto">
-  <h2 tabindex="-1" class="heading-element" dir="auto">👁‍🗨 Identification des problèmes et de potentielles solutions</h2>
-  <a id="user-content--identification-problèmes-potentielles-solutions" class="anchor" aria-label="Permalink: 👁‍🗨 Identification des problèmes et de potentielles solutions" href="#-identification-problèmes-potentielles-solutions">
+  <h2 tabindex="-1" class="heading-element" dir="auto">👁 Identification des problèmes et de potentielles solutions</h2>
+  <a id="user-content--identification-problèmes-potentielles-solutions" class="anchor" aria-label="Permalink: 👁 Identification des problèmes et de potentielles solutions" href="#-identification-problèmes-potentielles-solutions">
   <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
   </a>
 </div>
@@ -221,7 +223,7 @@ Notre analyse et notre proposition de stratégie sont détaillées dans ce docum
     </tr>
     <tr>
         <td>Savoir lorsqu’une réservation est confirmée ou annulée</td>
-        <td><a href="#reservation-confirmed-cancelled">envoyer une notification à l’utilisateur</a></td>
+        <td><a href="#reservation-confirmed-cancelled">Envoyer une notification à l’utilisateur</a></td>
     </tr>
     <tr>
         <td>L’utilisateur ne souhaite plus jouer avec un autre partenaire</td>
@@ -240,10 +242,10 @@ Notre analyse et notre proposition de stratégie sont détaillées dans ce docum
   <a 
     target="_blank"
     rel="noopener noreferrer" 
-    href="https://www.easyrequest.fr/image/bureau-salle-reservation.jpg"
+    href="https://i0.wp.com/www.possibility.fr/wp-content/uploads/2024/01/Horaires-et-productivite-scaled.jpg?fit=2560%2C1463&ssl=1"
   >
     <img 
-      src="https://www.easyrequest.fr/image/bureau-salle-reservation.jpg" 
+      src="https://i0.wp.com/www.possibility.fr/wp-content/uploads/2024/01/Horaires-et-productivite-scaled.jpg?fit=2560%2C1463&ssl=1" 
       alt="difficultes pour trouver des partenaires" 
       style="max-width: 100%;"
     >
@@ -311,7 +313,7 @@ Notre analyse et notre proposition de stratégie sont détaillées dans ce docum
   >
     <img 
       src="https://media.babolat.com/image/upload/f_auto,q_auto,c_crop,w_2000,h_751/Website_content/Badminton_News/02092020-Launch/collectif/maj/Banner_1365_510_1.png" 
-      alt="difficultes pour trouver des partenaires" 
+      alt="concrétiser des parties" 
       style="max-width: 100%;"
     >
   </a>
@@ -338,7 +340,7 @@ Notre analyse et notre proposition de stratégie sont détaillées dans ce docum
   >
     <img 
       src="https://www.le-shaft.fr/wp-content/uploads/2021/05/qui-sommes-nous-2048x1152.jpg" 
-      alt="difficultes pour trouver des partenaires" 
+      alt="état des réservations" 
       style="max-width: 100%;"
     >
   </a>
@@ -372,20 +374,345 @@ Notre analyse et notre proposition de stratégie sont détaillées dans ce docum
   >
     <img 
       src="https://www.auslogics.com/en/articles/wp-content/uploads/2023/10/How-to-Block-User-Access-to-Apps-and-Programs-on-a-Windows-PC--scaled.jpg" 
+      alt="bannir un utilisateur" 
+      style="max-width: 100%;"
+    >
+  </a>
+</p>
+<p dir="auto">
+  Notre système de matching vise à faciliter les rencontres entre les adhérents du club et à favoriser les échanges entre eux. Toutefois, nous sommes conscients que la compatibilité entre les joueurs ne peut pas être garantie à 100% par l'algorithme. C'est pourquoi nous proposons l'option de bannir un partenaire, afin que celui-ci ne soit plus proposé par l'algorithme à l'avenir.
+</p>
+<p dir="auto">
+  Pour mettre en place cette fonctionnalité, nous allons ajouter un bouton "Bannir" dans l'interface utilisateur de l'application, en dessous des informations du partenaire proposé. Lorsque l'utilisateur cliquera sur ce bouton, une fenêtre pop-up s'affichera pour confirmer son choix. Si l'utilisateur confirme, l'algorithme de matching prendra en compte cette décision et n'inclura plus cette personne dans les propositions de partenaires pour cet utilisateur. Cette fonctionnalité contribuera à améliorer la qualité des parties et à garantir une expérience positive pour tous les utilisateurs de l'application.
+</p>
+<p dir="auto">
+  En proposant cette option, nous souhaitons également encourager les adhérents à être honnêtes et respectueux les uns envers les autres. En effet, si un partenaire est banni à plusieurs reprises, cela pourrait indiquer un comportement inapproprié de sa part et des mesures plus strictes pourraient être prises à son encontre. Nous pensons que cette fonctionnalité permettra de créer une communauté plus saine et plus respectueuse au sein du club.
+</p>
+
+<div class="markdown-heading" dir="auto">
+  <h2 tabindex="-1" class="heading-element" dir="auto">📣 Présentation technique du projet <a id="user-content-project-technical-documentation"></a></h2>
+  <a id="user-content--présentation-technique-du-projet-" class="anchor" aria-label="Permalink: 📣 Présentation technique du projet " href="#-présentation-technique-du-projet-">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</div>
+<p dir="auto">
+  Après avoir analysé le contexte, les problématiques et les solutions possibles, il est temps de présenter les choix techniques pour la réalisation du projet. Cette étape essentielle permet de définir les technologies, les outils et les méthodes qui seront utilisés pour mener à bien le projet. 
+</p>
+<p dir="auto">
+  Afin de sélectionner les technologies les plus adaptées à la mise en place de ce projet, nous avons mené des études comparatives sur les différentes options disponibles. Notre objectif était de déterminer les meilleures technologies dans chaque domaine, en nous basant sur des critères tels que la performance, la fiabilité, la sécurité et la scalabilité.
+</p>
+
+<div class="markdown-heading" dir="auto">
+  <h1 tabindex="-1" class="heading-element" dir="auto">Benchmark</h1>
+  <a id="user-content-introduction" class="anchor" aria-label="Permalink: Introduction" href="#benchmark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</div>
+<div class="markdown-heading" dir="auto">
+  <h1 tabindex="-1" class="heading-element" dir="auto">Front-end</h1>
+  <a id="user-content-introduction" class="anchor" aria-label="Permalink: Introduction" href="#front-end">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</div>
+<p dir="auto">
+  L'évaluation comparative des différents frameworks Back-end disponibles sur le marché. Nous avons attribué des notes à chaque entrée du benchmark en fonction de leur qualité respective. Les critères d'évaluation incluent la facilité d'utilisation, la flexibilité, la performance et la communauté de développeurs.<br>
+  Nous avons utilisé ce document comme base pour notre proposition technique. Les résultats de cette évaluation comparative nous ont permis de sélectionner le framework le plus adapté à notre projet. Nous avons pris en compte les avantages et les inconvénients de chaque option, ainsi que leur pertinence par rapport aux besoins spécifiques de notre projet.
+<p dir="auto">
+  Notre proposition technique inclut une description détaillée du framework sélectionné, ainsi que les raisons qui ont motivé notre choix. Nous avons également inclus une analyse des risques potentiels et des stratégies d'atténuation pour garantir la réussite du projet. En somme, notre approche méthodologique rigoureuse nous permet de fournir une solution technique solide et fiable pour répondre aux besoins de notre client.
+</p>
+<table>
+  <thead>
+    <tr>
+      <th>Critères</th>
+      <th>ReactJS</th>
+      <th>Angular</th>
+      <th>Vue.js</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Personnalisation</td>
+      <td>3</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Rapidité</td>
+      <td>2</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Popularité</td>
+      <td>3</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Maturité</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Releases</td>
+      <td>1</td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Bonnes pratiques</td>
+      <td>3</td>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Stars Github</td>
+      <td>3</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Equipe Développement</td>
+      <td>3</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Communauté Github</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Communauté StackOverflow</td>
+      <td>2</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Documentation</td>
+      <td>2</td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Mariage librairies</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Prise Politique</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Tarifs</td>
+      <td>Gratuit</td>
+      <td>Gratuit</td>
+      <td>Gratuit</td>
+    </tr>
+    <tr>
+      <td>License</td>
+      <td>MIT</td>
+      <td>MIT</td>
+      <td>MIT</td>
+    </tr>
+    <tr>
+      <td>Total</td>
+      <td>27</td>
+      <td>27</td>
+      <td>23</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="markdown-heading" dir="auto">
+  <h1 tabindex="-1" class="heading-element" dir="auto">Back-end</h1>
+  <a id="user-content-introduction" class="anchor" aria-label="Permalink: Introduction" href="#back-end">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</div>
+<p dir="auto">
+  Dans la suite de notre analyse, nous nous concentrons sur les frameworks Back-end. Nous avons évalué les différentes options disponibles sur le marché en fonction de leur qualité respective, en prenant en compte des critères tels que la facilité d'utilisation, la flexibilité, la performance et la communauté de développeurs.<br>
+  Après une étude approfondie, nous avons sélectionné le framework le plus adapté à notre projet Back-end. Notre choix s'est basé sur les avantages et les inconvénients de chaque option, ainsi que sur leur pertinence par rapport aux besoins spécifiques de notre projet.
+</p>
+<p dir="auto">
+  Notre proposition technique pour le Back-end comprend une description détaillée du framework sélectionné, ainsi que les raisons qui ont motivé notre choix. Nous avons également inclus une analyse des risques potentiels et des stratégies d'atténuation pour garantir la réussite du projet. En somme, notre approche méthodologique rigoureuse nous permet de fournir une solution technique solide et fiable pour répondre aux besoins de notre client.
+</p>
+un tablero como este pero de diferentes frameworks de php, donde gane symfony. en frances por favor:
+<table>
+  <thead>
+    <tr>
+      <th>Critères</th>
+      <th>ReactJS</th>
+      <th>Angular</th>
+      <th>Vue.js</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Personnalisation</td>
+      <td>3</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Rapidité</td>
+      <td>2</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Popularité</td>
+      <td>3</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Maturité</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Releases</td>
+      <td>1</td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Bonnes pratiques</td>
+      <td>2</td>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Stars Github</td>
+      <td>3</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Equipe Développement</td>
+      <td>3</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Communauté Github</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Communauté StackOverflow</td>
+      <td>2</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Documentation</td>
+      <td>2</td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <td>Mariage librairies</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Prise Politique</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Tarifs</td>
+      <td>Gratuit</td>
+      <td>Gratuit</td>
+      <td>Gratuit</td>
+    </tr>
+    <tr>
+      <td>License</td>
+      <td>MIT</td>
+      <td>MIT</td>
+      <td>MIT</td>
+    </tr>
+    <tr>
+      <td>Total</td>
+      <td>26</td>
+      <td>27</td>
+      <td>23</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="markdown-heading" dir="auto">
+  <h1 tabindex="-1" class="heading-element" dir="auto">Proposition technique pour la réalisation du projet</h1>
+  <a id="user-content-proposition-technique-pour-la-réalisation-du-projet" class="anchor" aria-label="Permalink: Proposition technique pour la réalisation du projet" href="#proposition-technique-pour-la-réalisation-du-projet">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</div>
+<p dir="auto">
+  <a 
+    target="_blank"
+    rel="noopener noreferrer" 
+    href="https://www.featway.fr/wp-content/uploads/2021/01/What-Is-A-Full-Stack-Developer-and-Everything-You-Need-to-Know-to-Start.jpg"
+  >
+    <img 
+      src="https://www.featway.fr/wp-content/uploads/2021/01/What-Is-A-Full-Stack-Developer-and-Everything-You-Need-to-Know-to-Start.jpg" 
       alt="difficultes pour trouver des partenaires" 
       style="max-width: 100%;"
     >
   </a>
 </p>
 <p dir="auto">
-Notre système de matching vise à faciliter les rencontres entre les adhérents du club et à favoriser les échanges entre eux. Toutefois, nous sommes conscients que la compatibilité entre les joueurs ne peut pas être garantie à 100% par l'algorithme. C'est pourquoi nous proposons l'option de bannir un partenaire, afin que celui-ci ne soit plus proposé par l'algorithme à l'avenir.
+Dans cette présentation technique, nous détaillerons les choix techniques retenus pour chaque composante du projet, en expliquant les raisons qui ont motivé ces choix. Nous présenterons également l'architecture technique globale du projet, ainsi que les différentes étapes de développement prévues.
 </p>
 <p dir="auto">
-Pour mettre en place cette fonctionnalité, nous allons ajouter un bouton "Bannir" dans l'interface utilisateur de l'application, en dessous des informations du partenaire proposé. Lorsque l'utilisateur cliquera sur ce bouton, une fenêtre pop-up s'affichera pour confirmer son choix. Si l'utilisateur confirme, l'algorithme de matching prendra en compte cette décision et n'inclura plus cette personne dans les propositions de partenaires pour cet utilisateur. Cette fonctionnalité contribuera à améliorer la qualité des parties et à garantir une expérience positive pour tous les utilisateurs de l'application.
+Cette présentation technique a pour objectif de fournir une vision claire et précise des choix techniques retenus, afin de garantir la cohérence et la pérennité du projet. Elle permettra également de faciliter la communication entre les différents acteurs du projet, en fournissant un référentiel technique commun.
 </p>
-<p dir="auto">
-En proposant cette option, nous souhaitons également encourager les adhérents à être honnêtes et respectueux les uns envers les autres. En effet, si un partenaire est banni à plusieurs reprises, cela pourrait indiquer un comportement inapproprié de sa part et des mesures plus strictes pourraient être prises à son encontre. Nous pensons que cette fonctionnalité permettra de créer une communauté plus saine et plus respectueuse au sein du club.
-</p>
+
+<div class="markdown-heading" dir="auto">
+  <h2 tabindex="-1" class="heading-element" dir="auto">👀 Identification des technologies</h2>
+  <a id="user-content--identification-des-technologies" class="anchor" aria-label="Permalink: 👀 Identification des technologies" href="#-identification-des-technologies">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</div>
+<table>
+  <thead>
+    <tr>
+      <th>Technologies</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>PHP Symfony</td>
+    <td>PHP Symfony est un framework PHP open source permettant de créer des applications web robustes et évolutives, en utilisant les meilleures pratiques de développement.</td>
+    </tr>
+    <tr>
+      <td>React</td>
+      <td>React est une bibliothèque JavaScript open source pour créer des interfaces utilisateur interactives et réactives, en utilisant un modèle de composants réutilisables.</td>
+    </tr>
+    <tr>
+      <td>PostgreSQL</td>
+      <td>PostgreSQL est un système de gestion de base de données relationnelles de haute performance Open Source et évolutif</td>
+    </tr>
+    <tr>
+      <td>TypeORM</td>
+      <td>TypeORM est un ORM Open Source permettant d'intéragir avec les bases de données de façon simple et sécurisée</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## License
 
