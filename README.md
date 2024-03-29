@@ -326,6 +326,7 @@ Notre analyse et notre proposition de stratégie sont détaillées dans ce docum
   Cette fonctionnalité permettra de concrétiser les parties, d'aider les adhérents à améliorer leur niveau de jeu et de renforcer la communauté du club. En effet, en trouvant des partenaires de jeu compatibles, les adhérents pourront jouer plus régulièrement et progresser plus rapidement. De plus, cela favorisera les échanges entre les membres du club et permettra de créer de nouvelles connexions. Enfin, cela pourra attirer de nouveaux adhérents qui cherchent à jouer avec des partenaires de niveau similaire, ce qui contribuera à la croissance et à la vitalité du club.
 </p>
 
+
 <div class="markdown-heading" dir="auto">
   <h2 tabindex="-1" class="heading-element" dir="auto" data-react-autofocus="true">🔔 Savoir lorsqu’une réservation est confirmée ou annulée<a id="booking-status"></a></h2>
   <a id="user-content--identification-problèmes-potentielles-solutions" class="anchor" aria-label="Permalink: 🔔 Savoir lorsqu’une réservation est confirmée ou annulée" href="#booking-status">
@@ -346,18 +347,24 @@ Notre analyse et notre proposition de stratégie sont détaillées dans ce docum
   </a>
 </p>
 <p dir="auto">
-  Dans l'état actuel des choses, il est possible qu'il y ait une erreur humaine lors de la mise à jour du statut d'une réservation pour le club, car il ne dispose pas d'un système de gestion des réservations. Nous proposons que tant l'adhérent que l'administrateur puissent voir l'état de la réservation.
+  Dans l'état actuel des choses, il est possible qu'il y ait une erreur humaine lors de la mise à jour du statut d'une réservation pour le club, car celui-ci ne dispose pas d'un système de gestion des réservations.
 </p>
 <p dir="auto">
   Pour résoudre ce problème, notre application permettra à la fois aux adhérents et aux administrateurs de visualiser le statut de la réservation en temps réel.<br>
-  Les états de la réservation seron les suivants :
+  Les états de la réservation seront les suivants :
   <ul>
     <li>En attente de confirmation</li>
     <li>Confirmée</li>
     <li>Annulée</li>
   </ul>
 <p dir="auto">
-  Connaître l'état de la réservation en temps réel permettra aux utilisateurs de savoir si leur réservation a bien été prise en compte et s'ils peuvent compter sur le terrain réservé pour jouer leur partie. Cela leur évitera également des déplacements inutiles au club dans le cas où la réservation aurait été annulée ou modifiée. En outre, cela permettra aux adhérents de mieux s'organiser et de planifier leur emploi du temps en fonction de la disponibilité du terrain. Enfin, cela contribuera à renforcer la confiance des utilisateurs envers le club et l'application, en leur offrant une expérience utilisateur plus transparente et fiable.
+  Connaître l'état de la réservation en temps réel permettra aux utilisateurs de savoir si leur réservation a bien été prise en compte et s'ils peuvent compter sur le terrain réservé pour jouer leur partie, ce qui leur évitera des déplacements inutiles au club dans le cas où la réservation aurait été annulée ou modifiée. En outre, cela permettra aux adhérents de mieux s'organiser et de planifier leur emploi du temps en fonction de la disponibilité du terrain. Enfin, cela contribuera à renforcer la confiance des utilisateurs envers le club et l'application, en leur offrant une expérience utilisateur plus transparente et fiable.
+</p>
+<p dir="auto">
+  En ce qui concerne la gestion des annulations, nous avons décidé d'adopter une politique stricte afin d'encourager les joueurs à honorer leurs réservations.
+</p>
+<p dir="auto">
+  Cette mesure vise à prévenir les annulations de dernière minute et à garantir que les terrains soient utilisés de manière optimale. Nous pensons que cela encouragera les joueurs à être plus responsables dans leurs réservations et à respecter les autres membres du club.
 </p>
 
 <div class="markdown-heading" dir="auto">
