@@ -409,7 +409,131 @@ Notre analyse et notre proposition de stratégie sont détaillées dans ce docum
   </a>
 </div>
 <div class="markdown-heading" dir="auto">
-  <h1 tabindex="-1" class="heading-element" dir="auto">Front-end</h1>
+  <h2 tabindex="-1" class="heading-element" dir="auto">🛠️ Back-end<a id="user-content-project-technical-documentation"></a></h2>
+  <a id="user-content-introduction" class="anchor" aria-label="Permalink: Introduction" href="#back-end">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</div>
+<p dir="auto">
+  Dans la suite de notre analyse, nous nous concentrons sur les frameworks Back-end. Nous avons évalué les différentes options disponibles sur le marché en fonction de leur qualité respective, en prenant en compte des critères tels que la facilité d'utilisation, la flexibilité, la performance et la communauté de développeurs.<br>
+  Après une étude approfondie, nous avons sélectionné le framework le plus adapté à notre projet Back-end. Notre choix s'est basé sur les avantages et les inconvénients de chaque option, ainsi que sur leur pertinence par rapport aux besoins spécifiques de notre projet.
+</p>
+<p dir="auto">
+  Notre proposition technique pour le Back-end comprend une description détaillée du framework sélectionné, ainsi que les raisons qui ont motivé notre choix. Nous avons également inclus une analyse des risques potentiels et des stratégies d'atténuation pour garantir la réussite du projet. En somme, notre approche méthodologique rigoureuse nous permet de fournir une solution technique solide et fiable pour répondre aux besoins de notre client.
+</p>
+<table>
+  <thead>
+    <tr>
+      <th>Critères</th>
+      <th>ReactJS</th>
+      <th>Angular</th>
+      <th>Vue.js</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Personnalisation</td>
+      <td>3</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Rapidité</td>
+      <td>2</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Popularité</td>
+      <td>3</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Maturité</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Releases</td>
+      <td>1</td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Bonnes pratiques</td>
+      <td>2</td>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Stars Github</td>
+      <td>3</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Equipe Développement</td>
+      <td>3</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Communauté Github</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Communauté StackOverflow</td>
+      <td>2</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Documentation</td>
+      <td>2</td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <td>Mariage librairies</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Prise Politique</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Tarifs</td>
+      <td>Gratuit</td>
+      <td>Gratuit</td>
+      <td>Gratuit</td>
+    </tr>
+    <tr>
+      <td>License</td>
+      <td>MIT</td>
+      <td>MIT</td>
+      <td>MIT</td>
+    </tr>
+    <tr>
+      <td>Total</td>
+      <td>26</td>
+      <td>27</td>
+      <td>23</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="markdown-heading" dir="auto">
+  <h2 tabindex="-1" class="heading-element" dir="auto">🎨 Front-end<a id="user-content-project-technical-documentation"></a></h2>
   <a id="user-content-introduction" class="anchor" aria-label="Permalink: Introduction" href="#front-end">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
   </a>
@@ -530,131 +654,6 @@ Notre analyse et notre proposition de stratégie sont détaillées dans ce docum
 </table>
 
 <div class="markdown-heading" dir="auto">
-  <h1 tabindex="-1" class="heading-element" dir="auto">Back-end</h1>
-  <a id="user-content-introduction" class="anchor" aria-label="Permalink: Introduction" href="#back-end">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</div>
-<p dir="auto">
-  Dans la suite de notre analyse, nous nous concentrons sur les frameworks Back-end. Nous avons évalué les différentes options disponibles sur le marché en fonction de leur qualité respective, en prenant en compte des critères tels que la facilité d'utilisation, la flexibilité, la performance et la communauté de développeurs.<br>
-  Après une étude approfondie, nous avons sélectionné le framework le plus adapté à notre projet Back-end. Notre choix s'est basé sur les avantages et les inconvénients de chaque option, ainsi que sur leur pertinence par rapport aux besoins spécifiques de notre projet.
-</p>
-<p dir="auto">
-  Notre proposition technique pour le Back-end comprend une description détaillée du framework sélectionné, ainsi que les raisons qui ont motivé notre choix. Nous avons également inclus une analyse des risques potentiels et des stratégies d'atténuation pour garantir la réussite du projet. En somme, notre approche méthodologique rigoureuse nous permet de fournir une solution technique solide et fiable pour répondre aux besoins de notre client.
-</p>
-un tablero como este pero de diferentes frameworks de php, donde gane symfony. en frances por favor:
-<table>
-  <thead>
-    <tr>
-      <th>Critères</th>
-      <th>ReactJS</th>
-      <th>Angular</th>
-      <th>Vue.js</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Personnalisation</td>
-      <td>3</td>
-      <td>1</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>Rapidité</td>
-      <td>2</td>
-      <td>2</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Popularité</td>
-      <td>3</td>
-      <td>2</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>Maturité</td>
-      <td>2</td>
-      <td>2</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>Releases</td>
-      <td>1</td>
-      <td>3</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>Bonnes pratiques</td>
-      <td>2</td>
-      <td>3</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Stars Github</td>
-      <td>3</td>
-      <td>2</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Equipe Développement</td>
-      <td>3</td>
-      <td>2</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>Communauté Github</td>
-      <td>2</td>
-      <td>2</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>Communauté StackOverflow</td>
-      <td>2</td>
-      <td>3</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>Documentation</td>
-      <td>2</td>
-      <td>3</td>
-      <td>2</td>
-    </tr>
-    <tr>
-    </tr>
-    <tr>
-      <td>Mariage librairies</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>Prise Politique</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>Tarifs</td>
-      <td>Gratuit</td>
-      <td>Gratuit</td>
-      <td>Gratuit</td>
-    </tr>
-    <tr>
-      <td>License</td>
-      <td>MIT</td>
-      <td>MIT</td>
-      <td>MIT</td>
-    </tr>
-    <tr>
-      <td>Total</td>
-      <td>26</td>
-      <td>27</td>
-      <td>23</td>
-    </tr>
-  </tbody>
-</table>
-
-<div class="markdown-heading" dir="auto">
   <h1 tabindex="-1" class="heading-element" dir="auto">Proposition technique pour la réalisation du projet</h1>
   <a id="user-content-proposition-technique-pour-la-réalisation-du-projet" class="anchor" aria-label="Permalink: Proposition technique pour la réalisation du projet" href="#proposition-technique-pour-la-réalisation-du-projet">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
@@ -674,10 +673,10 @@ un tablero como este pero de diferentes frameworks de php, donde gane symfony. e
   </a>
 </p>
 <p dir="auto">
-Dans cette présentation technique, nous détaillerons les choix techniques retenus pour chaque composante du projet, en expliquant les raisons qui ont motivé ces choix. Nous présenterons également l'architecture technique globale du projet, ainsi que les différentes étapes de développement prévues.
+  Dans cette présentation technique, nous détaillerons les choix techniques retenus pour chaque composante du projet, en expliquant les raisons qui ont motivé ces choix. Nous présenterons également l'architecture technique globale du projet, ainsi que les différentes étapes de développement prévues.
 </p>
 <p dir="auto">
-Cette présentation technique a pour objectif de fournir une vision claire et précise des choix techniques retenus, afin de garantir la cohérence et la pérennité du projet. Elle permettra également de faciliter la communication entre les différents acteurs du projet, en fournissant un référentiel technique commun.
+  Cette présentation technique a pour objectif de fournir une vision claire et précise des choix techniques retenus, afin de garantir la cohérence et la pérennité du projet. Elle permettra également de faciliter la communication entre les différents acteurs du projet, en fournissant un référentiel technique commun.
 </p>
 
 <div class="markdown-heading" dir="auto">
