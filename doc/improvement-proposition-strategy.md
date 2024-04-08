@@ -4,18 +4,14 @@
         <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
     </a>
 </div>
-<p dir="auto">Le Bad's Club, situé dans le 7ème arrondissement de Lyon à proximité de la station de métro Jean Macé, est un espace sportif et lounge de plus de 1500m2 entièrement réhabilité.<br>
-Avec ses 4 terrains de badminton, 5 terrains de squash et 4 terrains de tennis de table, le club propose des activités sportives variées pour tous les niveaux.
-</p>
+<p dir="auto">Le Bad's Club, situé dans le 7ème arrondissement de Lyon à proximité de la station de métro Jean Macé, est un espace sportif et lounge de plus de 1500m2 entièrement réhabilité. Avec ses 4 terrains de badminton, 5 terrains de squash et 4 terrains de tennis de table, le club propose des activités sportives variées pour tous les niveaux.</p>
 <p dir="auto">Le lieu est idéal pour partager une session de sport et de détente ou organiser des tournois sportifs.</p>
 <p dir="auto">Les réservations des terrains et la fidélisation des clients sont des enjeux majeurs pour les finances du club.<br>
 En offrant une expérience de réservation simplifiée et en permettant aux adherants d'améliorer leur niveau de jeu grâce à la recherche de partenaires de jeu adaptés, le Bad's Club pourra se démarquer de la concurrence et fidéliser ses cients.<br> 
 Entant donné qu’il s’aggit des sports collectives de raquette, permetre au gens de trouver des partenaires de jeux est un element crucial pour se type de stabisement. L'application permettra de répondre à ces enjeux tout en offrant une expérience de sport complète et agréable pour ses membres.</p>
-<p dir="auto">Cependant, trouver un partenaire de jeu peut parfois être un obstacle pour les clients souhaitant réserver un terrain.<br>
-Pour cela il est cruciel d’offrir aux clients une solution qui leur facilitera la recherche de partenaires de jeu et ainsi, se démarquer de la concurrence et insiter les adherants à revenir régulièrement.</p>
+<p dir="auto">Cependant, trouver un partenaire de jeu peut parfois être un obstacle pour les clients souhaitant réserver un terrain. Pour cela il est cruciel d’offrir aux clients une solution qui leur facilitera la recherche de partenaires de jeu et ainsi, se démarquer de la concurrence et insiter les adherants à revenir régulièrement.</p>
 <p dir="auto">En proposant une expérience de réservation fluide et en offrant la possibilité aux adherants de trouver des partenaires de jeu adaptés à leur niveau, le Bad's Club pourra se différencier de la concurrence et fidéliser sa clientèle.</p>
 
-## Author
 <div class="markdown-heading" dir="auto">
     <h1 tabindex="-1" class="heading-element" dir="auto">👥 Identification de l'équipe en charge du projet</h1>
     <a id="user-content--identification-de-léquipe-en-charge-du-projet" class="anchor" aria-label="Permalink: 👥 Identification de l'équipe en charge du projet" href="#-identification-de-léquipe-en-charge-du-projet">
