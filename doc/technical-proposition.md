@@ -87,6 +87,19 @@
         <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
     </a>
 </div>
+<p dir="auto">
+    <a 
+        target="_blank" 
+        rel="noopener noreferrer nofollow" 
+        href="https://www.prestaconcept.net/medias/content/media/Symfony-logo_20160808115724.png"
+    >
+        <img 
+            src="https://www.prestaconcept.net/medias/content/media/Symfony-logo_20160808115724.png"
+            alt="Langage proposition image" 
+            style="max-width: 100%;"
+        >
+    </a>
+</p>
 <p dir="auto">Le choix de PHP Symfony au lieu d'autres frameworks a été guidé par plusieurs considérations essentielles.</p>
 <p dir="auto">Premièrement, PHP Symfony est un framework open-source robuste, offrant une structure et des outils qui accélèrent significativement le développement des applications web. La facilité de débogage et la performance globale sont grandement améliorées grâce à ses composants bien conçus et à son système de gestion d'exceptions.</p>
 <p dir="auto">Ensuite, Symfony enrichit PHP avec une approche de programmation orientée objet avancée. Il permet l'utilisation de concepts tels que l'héritage, les interfaces, et les traits, rendant le code non seulement plus structuré, mais aussi plus modulaire et évolutif. Cette modularité est cruciale pour soutenir la croissance et l'évolution de l'application sur le long terme.</p>
@@ -119,11 +132,11 @@
         rel="noopener noreferrer nofollow" 
         href="https://camo.githubusercontent.com/fab74229750d8fd3f97d2ce76bf28d40deab189566e6565b30559997c6415598/68747470733a2f2f6469676977696e2e66722f77702d636f6e74656e742f75706c6f6164732f323032312f30332f312d47455642594b5f7432516972744968434a77727876412e6a706567"
     >
-    <img 
-        src="https://www.syntacticsinc.com/wp-content/uploads/2018/09/Syntactics-ReactJS-vs-VueJS-vs-Angular.jpg" 
-        alt="framework front choice" 
-        style="max-width: 100%;"
-    >
+        <img 
+            src="https://www.syntacticsinc.com/wp-content/uploads/2018/09/Syntactics-ReactJS-vs-VueJS-vs-Angular.jpg" 
+            alt="framework front choice" 
+            style="max-width: 100%;"
+        >
     </a>
 </p>
 
@@ -150,11 +163,11 @@
         rel="noopener noreferrer nofollow" 
         href="https://camo.githubusercontent.com/fab74229750d8fd3f97d2ce76bf28d40deab189566e6565b30559997c6415598/68747470733a2f2f6469676977696e2e66722f77702d636f6e74656e742f75706c6f6164732f323032312f30332f312d47455642594b5f7432516972744968434a77727876412e6a706567"
     >
-    <img 
-        src="https://geekflare.com/wp-content/uploads/2021/12/postgresql-monitoring-.png" 
-        alt="database choice" 
-        style="max-width: 100%;"
-    >
+        <img 
+            src="https://geekflare.com/wp-content/uploads/2021/12/postgresql-monitoring-.png" 
+            alt="database choice" 
+            style="max-width: 100%;"
+        >
     </a>
 </p>
 <p dir="auto">Notre choix s'est porté sur PostgreSQL comme solution de gestion de base de données pour notre projet, pour plusieurs raisons notables :</p>
@@ -176,13 +189,13 @@
     <a 
         target="_blank" 
         rel="noopener noreferrer nofollow" 
-        href="https://repository-images.githubusercontent.com/597887/390a7600-7e6e-11e9-8d03-d2ef52506cdc"
+        href="https://tideways.com/wp-content/uploads/import/steps_doctrine2-2.jpg"
     >
         <img 
-        src="https://repository-images.githubusercontent.com/597887/390a7600-7e6e-11e9-8d03-d2ef52506cdc" 
-        alt="ORM proposition image" 
-        style="max-width: 100%;"
-    >
+            src="https://tideways.com/wp-content/uploads/import/steps_doctrine2-2.jpg" 
+            alt="ORM proposition image" 
+            style="max-width: 100%;"
+        >
     </a>
 </p>
 <p dir="auto">Nous avons décidé d'opter pour Doctrine ORM de Symfony comme interface de mappage objet-relationnel (ORM) pour faciliter et sécuriser les interactions entre notre application et les bases de données. Voici les raisons qui ont guidé notre choix vers Doctrine :</p>
