@@ -105,6 +105,27 @@
 <p dir="auto">Ce projet vise à développer une application pour un club sportif offrant des terrains de squash, de badminton et de tennis de table.</p>
 <p dir="auto">L'objectif principal de cette application est de simplifier la gestion des réservations et de faciliter la recherche de partenaires de jeu en permettant aux joueurs de se connecter et de jouer ensemble, indépendamment de leur niveau d'expérience.</p>
 
+<div class="markdown-heading" dir="auto">
+    <h1 tabindex="-1" class="heading-element" dir="auto">🗂 Architecture du projet 
+        <a id="user-content-architecture"></a>
+    </h1>
+    <a id="user-content--architecture-du-projet-" class="anchor" aria-label="Permalink: 🗂 Architecture du projet " href="#-architecture-du-projet-">
+        <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+    </a>
+</div>
+<p dir="auto">Ce dépôt adopte une structure organisée selon des principes de bonnes pratiques que nous détaillons ci-après :</p>
+<ul>
+    <li>Le répertoire <strong>.build</strong> regroupe tout ce qui est nécessaire à la construction de l'application. Il est l'emplacement idéal pour les scripts CMAKE, les scripts SH, et tout ce qui concerne Docker, entre autres.</li>
+    <li>Le répertoire <strong>.config</strong> est dédié aux éléments de configuration nécessaires pour préparer l'environnement d'exécution local et lancer le projet.</li>
+    <li>Le répertoire <strong>.github</strong> rassemble les informations spécifiques à l'utilisation de Github, comme la liste des contributeurs ou le code de conduite à suivre, entre autres éléments.</li>
+    <li>Le répertoire <strong>dep</strong> contient toutes les dépendances requises pour le fonctionnement optimal de l'application.</li>
+    <li>Le répertoire <strong>doc</strong> est consacré à la documentation, tant du projet en lui-même que de son application.</li>
+    <li>Le répertoire <strong>res</strong> abrite les ressources statiques du projet et de l'application, telles que des images.</li>
+    <li>Le répertoire <strong>src</strong> renferme le code source de l'application, constituant ainsi le cœur du projet.</li>
+    <li>Enfin, le répertoire <strong>test</strong> est alloué aux ressources de test, incluant les tests unitaires et d'intégration, indispensables tout au long du développement.</li>
+</ul>
+<p dir="auto">Cette structuration méthodique vise à faciliter la navigation et la maintenance du dépôt, en assurant une clarté et une cohérence dans l'organisation des fichiers et des dossiers.</p>
+
 ## Project Description
 <div class="markdown-heading" dir="auto">
     <h1 tabindex="-1" class="heading-element" dir="auto">🗒 Documentation relative au projet
@@ -123,7 +144,12 @@
     <h2 tabindex="-1" class="heading-element" dir="auto">📣 Présentation du projet 
         <a id="user-content-project-presentation"></a>
     </h2>
-    <a id="user-content--présentation-du-projet-" class="anchor" aria-label="Permalink: 📣 Présentation du projet " href="#-présentation-du-projet-">
+    <a 
+        id="user-content--présentation-du-projet-" 
+        class="anchor" 
+        aria-label="Permalink: 📣 Présentation du projet " 
+        href="#-présentation-du-projet-"
+    >
         <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
     </a>
 </div>
@@ -137,7 +163,12 @@
     <h2 tabindex="-1" class="heading-element" dir="auto">📣 Présentation technique du projet 
         <a id="user-content-project-technical-documentation"></a>
     </h2>
-    <a id="user-content--présentation-technique-du-projet-" class="anchor" aria-label="Permalink: 📣 Présentation technique du projet " href="#-présentation-technique-du-projet-">
+    <a 
+        id="user-content--présentation-technique-du-projet-" 
+        class="anchor" 
+        aria-label="Permalink: 📣 Présentation technique du projet " 
+        href="#-présentation-technique-du-projet-"
+    >
         <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
     </a>
 </div>
