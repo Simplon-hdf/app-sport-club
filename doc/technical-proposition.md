@@ -72,6 +72,18 @@
         <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
     </a>
 </div>
+<p dir="auto">
+    <a target="_blank" 
+        rel="noopener noreferrer nofollow" 
+        href="https://chisellabs.com/glossary/wp-content/uploads/2021/06/What-is-an-API.png"
+    >
+        <img 
+            src="https://chisellabs.com/glossary/wp-content/uploads/2021/06/What-is-an-API.png" 
+            alt="API proposition image" 
+            style="max-width: 100%;"
+        >
+    </a>
+</p>
 <p dir="auto">Pour construire notre API, le choix s'est porté sur l'architecture RESTful, en raison de ses caractéristiques particulièrement adaptées à nos exigences. Voici pourquoi cette architecture est au cœur de notre projet :</p>
 <ul>
     <li><strong>Compatibilité universelle :</strong> Notre API vise à être accessible depuis diverses applications et dispositifs. Grâce à REST, qui repose sur le standard HTTP, nous assurons une large compatibilité, facilitant ainsi son intégration.</li>
@@ -91,10 +103,10 @@
     <a 
         target="_blank" 
         rel="noopener noreferrer nofollow" 
-        href="https://www.prestaconcept.net/medias/content/media/Symfony-logo_20160808115724.png"
+        href="https://espritweb.fr/wp-content/uploads/2021/01/image-mise-en-avant-installer-symfony-1692x846.png"
     >
         <img 
-            src="https://www.prestaconcept.net/medias/content/media/Symfony-logo_20160808115724.png"
+            src="https://espritweb.fr/wp-content/uploads/2021/01/image-mise-en-avant-installer-symfony-1692x846.png"
             alt="Langage proposition image" 
             style="max-width: 100%;"
         >
@@ -200,7 +212,7 @@
 </p>
 <p dir="auto">Nous avons décidé d'opter pour Doctrine ORM de Symfony comme interface de mappage objet-relationnel (ORM) pour faciliter et sécuriser les interactions entre notre application et les bases de données. Voici les raisons qui ont guidé notre choix vers Doctrine :</p>
 <ul>
-    <li><strong>Intégration native avec Symfony : Étant le ORM par défaut de Symfony, Doctrine offre une intégration fluide et cohérente avec le framework, ce qui garantit une synergie parfaite pour nos besoins de développement, en particulier en utilisant PHP comme langage principal.</li>
+    <li><strong>Intégration native avec Symfony :</strong> Étant le ORM par défaut de Symfony, Doctrine offre une intégration fluide et cohérente avec le framework, ce qui garantit une synergie parfaite pour nos besoins de développement, en particulier en utilisant PHP comme langage principal.</li>
     <li><strong>Communauté dynamique et documentation exhaustive :</strong> Doctrine bénéficie d'une communauté active et d'une documentation complète, facilitant la résolution rapide de problèmes et l'accès à une vaste gamme de fonctionnalités pour enrichir notre application.</li>
     <li><strong>Open source et flexible :</strong> En tant qu'ORM open source, Doctrine nous laisse une grande liberté de personnalisation et d'ajustement pour répondre spécifiquement à nos exigences projet.</li>
     <li><strong>Performance et support de plusieurs SGBD :</strong> Doctrine est reconnu pour sa performance et sa capacité à supporter divers systèmes de gestion de bases de données, y compris PostgreSQL, ce qui le rend adaptable à différents environnements de production.</li>
