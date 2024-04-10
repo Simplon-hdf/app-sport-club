@@ -32,8 +32,8 @@
 <summary><h2>Checklist</h2></summary>
 
 - [ ] **Choix de la méthodologie (Agile)**
-- [ ] **Créer un repo Github**
-- [ ] **Créer la structure du repo (Best practice)**
+- [x] **Créer un repo Github**
+- [x] **Créer la structure du repo (Best practice)**
 
   - Dossier
     - [ ] .config
@@ -46,7 +46,7 @@
     - [ ] test
   - Fichier
     - [ ] LICENCE.md
-    - [ ] README.md
+    - [x] README.md
     - [ ] .gitattributes
     - [ ] .gitignore
     - [ ] .gitmodules
