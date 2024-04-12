@@ -65,7 +65,7 @@ Ce dépôt est une structure permettant de démarrer un projet professionnel ou 
     - [ ] MCD
     - [ ] MLD
     - [ ] MPD
-  - [ ] RBAC
+  - [X] [RBAC](./doc/RBAC.md)
 - [ ] **Epic**
   - [ ] User Story
   - [ ] Product backlog (Tâches)
