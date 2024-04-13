@@ -223,3 +223,125 @@ Les états de la réservation seront les suivants :
 <p dir="auto">Notre système de matching vise à faciliter les rencontres entre les adhérents du club et à favoriser les échanges entre eux. Toutefois, nous sommes conscients que la compatibilité entre les joueurs ne peut pas être garantie à 100% par l'algorithme. C'est pourquoi nous proposons l'option de bannir un partenaire, afin que celui-ci ne soit plus proposé par l'algorithme à l'avenir.</p>
 <p dir="auto">Pour mettre en place cette fonctionnalité, nous allons ajouter un bouton "Bannir" dans l'interface utilisateur de l'application, en dessous des informations du partenaire proposé. Lorsque l'utilisateur cliquera sur ce bouton, une fenêtre pop-up s'affichera pour confirmer son choix. Si l'utilisateur confirme, l'algorithme de matching prendra en compte cette décision et n'inclura plus cette personne dans les propositions de partenaires pour cet utilisateur. Cette fonctionnalité contribuera à améliorer la qualité des parties et à garantir une expérience positive pour tous les utilisateurs de l'application.</p>
 <p dir="auto">En proposant cette option, nous souhaitons également encourager les adhérents à être honnêtes et respectueux les uns envers les autres. En effet, si un partenaire est banni à plusieurs reprises, cela pourrait indiquer un comportement inapproprié de sa part et des mesures plus strictes pourraient être prises à son encontre. Nous pensons que cette fonctionnalité permettra de créer une communauté plus saine et plus respectueuse au sein du club.</p>
+
+<div class="markdown-heading" dir="auto">
+    <h1 tabindex="-1" class="heading-element" dir="auto">👤 Identification des personas</h1>
+    <a 
+        id="user-content--identification-des-personas" 
+        class="anchor" 
+        aria-label="Permalink: 👤 Identification des personas" 
+        href="#-identification-des-personas"
+    >
+        <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+    </a>
+</div>
+<p dir="auto">
+    <a target="_blank" rel="noopener noreferrer" href="/benjGam/Discord-Simplon/blob/main/doc/assets/imgs/targets.png">
+        <img 
+            src="https://www.google.com/imgres?q=r%C3%B4les&imgurl=https%3A%2F%2Fernest.hec.ca%2Fvideo%2FDAIP%2Ftravailler-en-equipe%2Fetudiants%2Fattribuer-roles%2Fmedias%2Frole-animateur.png&imgrefurl=https%3A%2F%2Fernest.hec.ca%2Fvideo%2FDAIP%2Ftravailler-en-equipe%2Fetudiants%2Fattribuer-roles%2Froles.html&docid=p4LW_DmaRpIPdM&tbnid=JP-jDJdQO9IqcM&vet=12ahUKEwiw_82vmriFAxVmUaQEHfEFCi0QM3oECBcQAA..i&w=1200&h=1200&hcb=2&ved=2ahUKEwiw_82vmriFAxVmUaQEHfEFCi0QM3oECBcQAA"
+            alt="drawing with profile pictures" 
+            style="max-width: 100%;"
+        >
+    </a>
+</p>
+<!-- visiteur -->
+<div class="markdown-heading" dir="auto">
+    <h2 tabindex="-1" class="heading-element" dir="auto">🚶‍♂️ La persona visiteur</h2>
+    <a id="user-content--la-persona-visiteur" class="anchor" aria-label="Permalink: 🚶‍♂️ La persona visiteur" href="#-la-persona-visiteur">
+        <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+    </a>
+</div>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto">
+    <pre class="notranslate">
+        <code>Agé de 18 à 45 ans et plus, le persona visiteur, indépendamment de son sexe ou de son genre, a un intérêt marqué pour les sports de raquette.
+        Ce visiteur utilise régulièrement des smartphones et des applications mobiles, bien qu'il ne soit pas un expert en technologie.
+        L'intérêt principal du visiteur réside dans la consultation des disponibilités des terrains sportifs, motivé par une passion pour le sport ou la découverte de nouvelles activités de loisir.
+        Toutefois, pour concrétiser sa réservation, il découvrira la nécessité de s'inscrire, de créer un profil et de s'abonner via un paiement mensuel.
+        Bien que son intention initiale ne soit pas directement l'inscription, la facilité de réservation et le désir de garantir son accès aux terrains peuvent le motiver à devenir adhérent.
+        </code>
+    </pre>
+    <div class="zeroclipboard-container">
+        <clipboard-copy 
+            aria-label="Copy" 
+            class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" 
+            data-tooltip-direction="w" 
+            value="Agé de 18 à 45 ans et plus, le persona visiteur, indépendamment de son sexe ou de son genre, a un intérêt marqué pour les sports de raquette.
+            Ce visiteur utilise régulièrement des smartphones et des applications mobiles, bien qu'il ne soit pas un expert en technologie.
+            L'intérêt principal du visiteur réside dans la consultation des disponibilités des terrains sportifs, motivé par une passion pour le sport ou la découverte de nouvelles activités de loisir.
+            Toutefois, pour concrétiser sa réservation, il découvrira la nécessité de s'inscrire, de créer un profil et de s'abonner via un paiement mensuel.
+            Bien que son intention initiale ne soit pas directement l'inscription, la facilité de réservation et le désir de garantir son accès aux terrains peuvent le motiver à devenir adhérent." 
+            tabindex="0" 
+            role="button"
+        >
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon"><path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path></svg>
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path></svg>
+        </clipboard-copy>
+    </div>
+</div>
+<!-- adherant -->
+<div class="markdown-heading" dir="auto">
+    <h2 tabindex="-1" class="heading-element" dir="auto">🤾‍♀️ La persona adherant</h2>
+    <a id="user-content--la-persona-adherant" class="anchor" aria-label="Permalink: 🤾‍♀️ La persona adherant" href="#-la-persona-adherant">
+        <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+    </a>
+</div>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto">
+    <pre class="notranslate">
+        <code>La persona adhérent hérite des caractéristiques de la persona visiteur.
+        L'adherant est un visiteur qui a créé son profil, s'est inscrit au club et a payé l'abonnement mensuel.
+        Il se distingue par son engagement actif et sa passion pour les sports de raquette.
+        Sa priorité est de réserver et, si nécessaire, d'annuler des terrains, facilitant ainsi une pratique sportive régulière et adaptée à son emploi du temps.
+        La persona adhérant il souhaite trouver facilement des partenaires de jeu correspondant à son niveau et son sport de prédilection.
+        </code>
+    </pre>
+    <div class="zeroclipboard-container">
+        <clipboard-copy 
+            aria-label="Copy" 
+            class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" 
+            data-tooltip-direction="w" 
+            value="La persona adhérent hérite des caractéristiques du persona visiteur.
+            L'adherant est un visiteur qui a créé son profil, s'est inscrit au club et a payé l'abonnement mensuel.
+            Il se distingue par son engagement actif et sa passion pour les sports de raquette.
+            Sa priorité est de réserver et, si nécessaire, d'annuler des terrains, facilitant ainsi une pratique sportive régulière et adaptée à son emploi du temps.
+            La persona adhérant trouve facilement des partenaires de jeu correspondant à son niveau et son sport  de prédilection." 
+            tabindex="0" 
+            role="button"
+        >
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon"><path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path></svg>
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path></svg>
+        </clipboard-copy>
+    </div>
+</div>
+<!-- administrateur -->
+<div class="markdown-heading" dir="auto">
+    <h2 tabindex="-1" class="heading-element" dir="auto">🤾‍♀️ La persona administrateur</h2>
+    <a id="user-content--la-persona-administrateur" class="anchor" aria-label="Permalink: 🤾‍♀️ La persona administrateur" href="#-la-persona-administrateur">
+        <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+    </a>
+</div>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto">
+    <pre class="notranslate">
+        <code>La persona administrateur est un homme agée d'une quarentaine d'anées.
+        Ce personna cherche à optimiser la gestion de son club, en developpent des services pour satisfaire au mieux sa clientele.
+        Il est a laisse avec l'informatique. 
+        Il utilise déjà des utiles de gestion, qui ne sont pas performant et qui ne repondent pas à ses besoins.
+        </code>
+    </pre>
+    <div class="zeroclipboard-container">
+        <clipboard-copy 
+            aria-label="Copy" 
+            class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" 
+            data-tooltip-direction="w" 
+            value="La persona adhérent hérite des caractéristiques du persona visiteur.
+            L'adherant est un visiteur qui a créé son profil, s'est inscrit au club et a payé l'abonnement mensuel.
+            Il se distingue par son engagement actif et sa passion pour les sports de raquette.
+            Sa priorité est de réserver et, si nécessaire, d'annuler des terrains, facilitant ainsi une pratique sportive régulière et adaptée à son emploi du temps.
+            La persona adhérant trouve facilement des partenaires de jeu correspondant à son niveau et son sport  de prédilection." 
+            tabindex="0" 
+            role="button"
+        >
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon"><path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path></svg>
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path></svg>
+        </clipboard-copy>
+    </div>
+</div>
