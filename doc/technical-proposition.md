@@ -46,7 +46,7 @@ De plus, l'écosystème Symfony est compatible avec un large éventail d'outils 
 
 En somme, PHP Symfony se distingue comme un framework performant et polyvalent, apportant une structure rigoureuse, une documentation exhaustive, et une compatibilité étendue au développement PHP. Ces atouts font de lui le choix privilégié pour notre projet, nous permettant de construire une application fiable, maintenable, et prête pour l'avenir.
 
-Ce document peut être consulté en cliquant <a href="doc/benchmark/back-end-framework.md">ici</a>
+Ce document peut être consulté en cliquant <a href="benchmark/back-end-framework.md">ici</a>.
 
 ## 🎨 Proposition de Framework Front-End
 
@@ -60,7 +60,7 @@ L'association de React avec TypeScript, un langage développé par Microsoft, re
 La combinaison React et TypeScript nous offre une solution robuste pour construire des applications à grande échelle, en tirant parti de la vérification de type au moment de la compilation et d'une architecture orientée composants. De plus, TypeScript améliore la lisibilité et la maintenabilité du code, des atouts précieux pour le travail en équipe et la pérennité des projets.
 En somme, l'alliance de React et TypeScript s'aligne avec notre vision de créer des applications web modernes, performantes et facilement maintenables. Cet assemblage s'est avéré être le plus adapté à nos exigences, offrant à la fois flexibilité, sécurité de type et une vaste communauté de support.
 
-Ce document peut être consulté en cliquant <a href="doc/benchmark/front-end-frameworks.md">ici</a>
+Ce document peut être consulté en cliquant <a href="benchmark/front-end-frameworks.md">ici</a>.
 
 ## 📑 Proposition de base de donnée<
 
@@ -91,4 +91,4 @@ Nous avons décidé d'opter pour Doctrine ORM de Symfony comme interface de mapp
 
 En conclusion, Doctrine ORM se présente comme une solution robuste et versatile pour notre projet, alliant sécurité, efficacité et facilité d'utilisation. Sa forte intégration avec Symfony, couplée à son large éventail de fonctionnalités, en fait le choix idéal pour une gestion optimale de nos données.
 
-Ce document peut être consulté en cliquant <a href="doc/benchmark/orm.md">ici</a>
+Ce document peut être consulté en cliquant <a href="benchmark/orm.md">ici</a>.
