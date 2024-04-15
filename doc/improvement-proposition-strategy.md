@@ -15,11 +15,12 @@ En proposant une expérience de réservation fluide et en offrant la possibilit�
 # 👥 Identification de l'équipe en charge du projet
 
 L'équipe est constituée de 2 membres :
-- **MADDELEIN Jean-Benoit qui a le rôle de Product Ownerdont la fonction est entre autre de prendre en charge les interactions entre l'équipe en charge du projet et le client.
+- **MADDELEIN Jean-Benoit** qui a le rôle de Product Ownerdont la fonction est entre autre de prendre en charge les interactions entre l'équipe en charge du projet et le client.
 
-- **GONZALEZ CAMARGO Ximena qui a le rôle de Scrum Master dont la fonction est de diriger les membres de l'équipe en charge du projet et d'assigner des tâches à chacun.
+- **GONZALEZ CAMARGO Ximena** qui a le rôle de Scrum Master dont la fonction est de diriger les membres de l'équipe en charge du projet et d'assigner des tâches à chacun.
 
-Nous travaillons donc en Méthode Agile (SCRUM) qui est une méthodologie utilisée au sein des entreprises dans la majorité des cas.<br>
+Nous travaillons donc en Méthode Agile (SCRUM) qui est une méthodologie utilisée au sein des entreprises dans la majorité des cas.
+
 Note : Le **Product Owner** ainsi que le Scrum Master aient également pour rôle de développer, certaines responsabilités sont propres à ces rôles spécifiques.
 
 # 📝 Proposition de stratégie d'amélioration de reservations du club sportif Bad's
@@ -32,37 +33,14 @@ Notre analyse et notre proposition de stratégie sont détaillées dans ce docum
 
 ## 👁‍🗨 Identification des problèmes et de potentielles solutions
 
-<table>
-    <tbody>
-        <tr>
-            <td>Problématiques</td>
-            <td>Problèmes</td>
-            <td>Solution</td>
-        </tr>
-        <tr>
-            <td rowspan="1">Gestion inefficace des réservations de terrains sportifs</td>
-            <td>Difficulté pour les administrateurs du club à suivre l'utilisation des terrains et leurs disponibilités</td>
-            <td><a href="#inefficient-management">Mettre en place un système de réservation via une application mobile</a></td>
-        </tr>
-        <tr>
-            <td rowspan="4">La recherche de partenaires de jeux : un obstacle à la reservation de terrains</td>
-            <td>Difficultés pour trouver des partenaires de jeu ayant un niveau similaire et des disponibilités horaires compatibles</td>
-            <td><a href="#challenges-finding-partners">Développer des algorithmes de matching avancés qui prennent en compte les préférences individuelles des utilisateurs</a></td>
-        </tr>
-        <tr>
-            <td>Concrétiser l’organisation des parties</td>
-            <td><a href="#matches-organization">Lorsqu’un partenaire potentiel est trouvé, les deux utilisateurs reçoivent une notification. Chacun doit confirmer la réservation</a></td>
-        </tr>
-        <tr>
-            <td>Savoir lorsqu’une réservation est confirmée ou annulée</td>
-            <td><a href="#reservation-confirmed-cancelled">Envoyer une notification à l’utilisateur</a></td>
-        </tr>
-        <tr>
-            <td>L’utilisateur ne souhaite plus jouer avec un autre partenaire</td>
-            <td><a href="#ban-player">Mettre en place une option pour que le joueur en question ne soit plus proposé comme partenaire potentiel</a></td>
-        </tr>
-    </tbody>
-</table>
+| Problématiques                                            | Problèmes                                                                 | Solution                                                                                                   |
+|-----------------------------------------------------------|---------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| Gestion inefficace des réservations de terrains sportifs  | Difficulté pour les administrateurs du club à suivre l'utilisation des terrains et leurs disponibilités | [Mettre en place un système de réservation via une application mobile](#inefficient-management)           |
+| La recherche de partenaires de jeux : un obstacle à la reservation de terrains | Difficultés pour trouver des partenaires de jeu ayant un niveau similaire et des disponibilités horaires compatibles | [Développer des algorithmes de matching avancés qui prennent en compte les préférences individuelles des utilisateurs](#challenges-finding-partners) |
+| La recherche de partenaires de jeux : un obstacle à la reservation de terrains | Concrétiser l’organisation des parties                                     | [Lorsqu’un partenaire potentiel est trouvé, les deux utilisateurs reçoivent une notification. Chacun doit confirmer la réservation](#matches-organization) |
+| La recherche de partenaires de jeux : un obstacle à la reservation de terrains | Savoir lorsqu’une réservation est confirmée ou annulée                     | [Envoyer une notification à l’utilisateur](#reservation-confirmed-cancelled)                               |
+| La recherche de partenaires de jeux : un obstacle à la reservation de terrains | Évaluation des partenaires de jeu              | [Mettre en place une option pour qualifier le partnenaire | La recherche de partenaires de jeux : un obstacle à la reservation de terrains | Évaluation des partenaires de jeu              | [Mettre en place une option pour qualifier le partnenaire post-match](#player-rating)                   |
+ en question ne soit plus proposé comme partenaire potentiel](#player-rating)                   |
 
 ## 👩🏻‍💻 Difficulté pour les administrateurs du club à suivre l'utilisation des terrains et leurs disponibilités
 
@@ -119,17 +97,19 @@ En ce qui concerne la gestion des annulations, nous avons décidé d'adopter une
 
 Cette mesure vise à prévenir les annulations de dernière minute et à garantir que les terrains soient utilisés de manière optimale. Nous pensons que cela encouragera les joueurs à être plus responsables dans leurs réservations et à respecter les autres membres du club.
 
-## 🚫 L’utilisateur ne souhaite plus jouer avec un autre partenaire
+## 👍 Évaluation des partenaires de jeu
 
-![Sourcing image](assets/imgs/banner.png)
+![](assets/imgs/rating.jpg)
 
-Notre système de matching vise à faciliter les rencontres entre les adhérents du club et à favoriser les échanges entre eux. Toutefois, nous sommes conscients que la compatibilité entre les joueurs ne peut pas être garantie à 100% par l'algorithme. C'est pourquoi nous proposons l'option de bannir un partenaire, afin que celui-ci ne soit plus proposé par l'algorithme à l'avenir.
-Pour mettre en place cette fonctionnalité, nous allons ajouter un bouton "Bannir" dans l'interface utilisateur de l'application, en dessous des informations du partenaire proposé. Lorsque l'utilisateur cliquera sur ce bouton, une fenêtre pop-up s'affichera pour confirmer son choix. Si l'utilisateur confirme, l'algorithme de matching prendra en compte cette décision et n'inclura plus cette personne dans les propositions de partenaires pour cet utilisateur. Cette fonctionnalité contribuera à améliorer la qualité des parties et à garantir une expérience positive pour tous les utilisateurs de l'application.
-En proposant cette option, nous souhaitons également encourager les adhérents à être honnêtes et respectueux les uns envers les autres. En effet, si un partenaire est banni à plusieurs reprises, cela pourrait indiquer un comportement inapproprié de sa part et des mesures plus strictes pourraient être prises à son encontre. Nous pensons que cette fonctionnalité permettra de créer une communauté plus saine et plus respectueuse au sein du club.
+Pour améliorer les interactions entre joueurs, nous introduisons une fonctionnalité de "like" ou "dislike" après chaque match dans notre application. À la fin de chaque partie, les joueurs pourront évaluer leurs partenaires, influençant ainsi les recommandations futures du système de matching.
+
+Cette évaluation permettra de personnaliser et d'améliorer la sélection des partenaires, tout en favorisant un environnement sportif positif et respectueux. Les "dislikes" répétés serviront à identifier les comportements inappropriés, permettant d'agir efficacement pour préserver la qualité et la sécurité de la communauté sportive.
+
+Cette fonctionnalité vise à donner aux joueurs un contrôle plus direct sur leurs expériences et à promouvoir des interactions enrichissantes au sein du club.
 
 # 👤 Identification des personas
 
-![drawing with profile pictures](assets/imgs/targets.png)
+![](assets/imgs/targets.png)
 
 ## 🙋 La persona visiteur
 
@@ -138,7 +118,6 @@ Ce visiteur utilise régulièrement des smartphones et des applications mobiles,
 L'intérêt principal du visiteur réside dans la consultation des disponibilités des terrains sportifs, motivé par une passion pour le sport ou la découverte de nouvelles activités de loisir.
 Toutefois, pour concrétiser sa réservation, il découvrira la nécessité de s'inscrire, de créer un profil et de s'abonner via un paiement mensuel.
 Bien que son intention initiale ne soit pas directement l'inscription, la facilité de réservation et le désir de garantir son accès aux terrains peuvent le motiver à devenir adhérent.
-
 
 ## 🤾🏻‍♂️ La persona adherant
 
@@ -154,4 +133,3 @@ L'administrateur est un homme âgé d'une quarantaine d'années.
 Ce persona cherche à optimiser la gestion de son club, en développant des services pour satisfaire au mieux sa clientèle.
 Il est à l'aise avec l'informatique.
 Il utilise déjà des outils de gestion, qui ne sont pas performants et qui ne répondent pas à ses besoins.
-        
