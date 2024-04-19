@@ -39,8 +39,7 @@ Notre analyse et notre proposition de stratégie sont détaillées dans ce docum
 | La recherche de partenaires de jeux : un obstacle à la reservation de terrains | Difficultés pour trouver des partenaires de jeu ayant un niveau similaire et des disponibilités horaires compatibles | [Développer des algorithmes de matching avancés qui prennent en compte les préférences individuelles des utilisateurs](#challenges-finding-partners) |
 | La recherche de partenaires de jeux : un obstacle à la reservation de terrains | Concrétiser l’organisation des parties                                     | [Lorsqu’un partenaire potentiel est trouvé, les deux utilisateurs reçoivent une notification. Chacun doit confirmer la réservation](#matches-organization) |
 | La recherche de partenaires de jeux : un obstacle à la reservation de terrains | Savoir lorsqu’une réservation est confirmée ou annulée                     | [Envoyer une notification à l’utilisateur](#reservation-confirmed-cancelled)                               |
-| La recherche de partenaires de jeux : un obstacle à la reservation de terrains | Évaluation des partenaires de jeu              | [Mettre en place une option pour qualifier le partnenaire | La recherche de partenaires de jeux : un obstacle à la reservation de terrains | Évaluation des partenaires de jeu              | [Mettre en place une option pour qualifier le partnenaire post-match](#player-rating)                   |
- en question ne soit plus proposé comme partenaire potentiel](#player-rating)                   |
+| La recherche de partenaires de jeux : un obstacle à la reservation de terrains | Évaluation des partenaires de jeu              | [Mettre en place une option pour qualifier le partnenaire post-match en question](#player-rating)                   |
 
 ## 👩🏻‍💻 Difficulté pour les administrateurs du club à suivre l'utilisation des terrains et leurs disponibilités
 
