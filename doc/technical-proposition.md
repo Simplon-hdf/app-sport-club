@@ -92,3 +92,11 @@ Nous avons décidé d'opter pour Doctrine ORM de Symfony comme interface de mapp
 En conclusion, Doctrine ORM se présente comme une solution robuste et versatile pour notre projet, alliant sécurité, efficacité et facilité d'utilisation. Sa forte intégration avec Symfony, couplée à son large éventail de fonctionnalités, en fait le choix idéal pour une gestion optimale de nos données.
 
 Ce document peut être consulté en cliquant <a href="benchmark/orm.md">ici</a>.
+
+## 🛡️ Stratégie de sécurisation
+
+![](assets/imgs/cybersecurity.png)
+
+Notre stratégie multicouche se concentre sur la prévention, la détection et la réponse aux menaces, s'appuyant sur les bonnes pratiques de développement et les recommandations de l'ANSSI et de la CNIL.
+
+Ce document peut être consulté en cliquant <a href="security-strategy.md">ici</a>.
