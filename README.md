@@ -38,7 +38,7 @@ App BAD'S Club
   - [x] Persona
   - [ ] Présentation (PowerPoint)
   - [ ] Mail de suivie / Proposition stratégique
-- [ ] **Benchmark (Analyse de la concurence)**
+- [x] **Benchmark (Analyse de la concurence)**
 - [ ] **Spécification fonctionnelle**
   - [ ] Règle de gestion
   - [ ] UML
