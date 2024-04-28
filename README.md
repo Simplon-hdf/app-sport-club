@@ -38,7 +38,6 @@ App BAD'S Club
   - [x] Persona
   - [ ] Présentation (PowerPoint)
   - [ ] Mail de suivie / Proposition stratégique
-- [x] **Benchmark (Analyse de la concurence)**
 - [ ] **Spécification fonctionnelle**
   - [X] [Règle de gestion](./doc/gestion-rules.md)
   - [ ] UML
@@ -51,6 +50,11 @@ App BAD'S Club
     - [ ] MLD
     - [ ] MPD
   - [X] [RBAC](./doc/RBAC.md)
+  - [X] **Benchmark et Analyse Comparative**
+    - [X] **Évaluation Globale** : [Questions Globales](./doc/Benchmark/global-questions.md)
+    - [X] **Frameworks Front-End** : [Comparaison des Frameworks Front-End](./doc/Benchmark/front-end-frameworks.md)
+    - [X] **Frameworks Back-End** : [Comparaison des Frameworks Back-End](./doc/Benchmark/front-end-frameworks.md)
+    - [X] **ORM et Bases de Données** : [Comparaison des ORM](./doc/Benchmark/orm.md)
 - [ ] **Epic**
   - [ ] User Story
   - [ ] Product backlog (Tâches)
