@@ -40,7 +40,7 @@ App BAD'S Club
   - [ ] Mail de suivie / Proposition stratégique
 - [x] **Benchmark (Analyse de la concurence)**
 - [ ] **Spécification fonctionnelle**
-  - [ ] Règle de gestion
+  - [X] [Règle de gestion](./doc/gestion-rules.md)
   - [ ] UML
     - [ ] Diagramme d'activité
     - [ ] Use case
