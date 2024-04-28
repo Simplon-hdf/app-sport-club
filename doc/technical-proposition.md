@@ -6,6 +6,10 @@ Dans cette présentation technique, nous détaillerons les choix techniques rete
 
 Cette présentation technique a pour objectif de fournir une vision claire et précise des choix techniques retenus, afin de garantir la cohérence et la pérennité du projet. Elle permettra également de faciliter la communication entre les différents acteurs du projet, en fournissant un référentiel technique commun.
 
+Nous avons établi un cadre de référence détaillé pour guider nos choix technologiques, répondant ainsi à divers critères spécifiques. Ce cadre a été synthétisé dans un tableau de questions globales que nous avons soigneusement rempli, permettant d'assurer une cohérence avec nos objectifs et exigences.
+
+Ce document peut être consulté en cliquant <a href="benchmark/global-questions.md">ici</a>.
+
 ## 👀 Identification des technologies
 
 | Technologies  | Description                                                                                                     |
