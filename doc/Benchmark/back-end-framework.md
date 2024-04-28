@@ -1,4 +1,4 @@
-# 🛠️ Back-end
+# 🔧 Back-end
 
 Dans la suite de notre analyse, nous nous concentrons sur les frameworks Back-end. Un **Benchmark** approfondi a été réalisé, permettant de comparer les différentes solutions du marché selon des critères clés tels que la personnalisation, la popularité et le soutien de la communauté de développeurs.
 
@@ -21,5 +21,3 @@ Le tableau comparatif présenté ci-dessous détaille les résultats de notre an
 | Total                                               | 28     | 33         | 35      |
 
 Au cours de cet **benchmark**, nous avons comparé trois langages de programmation, Python a émergé avec 32 points comme le langage ayant le score le plus élevé. Cependant, après mûre réflexion, nous avons choisi de développer notre application en PHP. Cette décision a été prise principalement en raison de notre familiarité avec PHP, contrairement à Python et JavaScript, pour lesquels notre maîtrise est moins approfondie. À un moment où l'efficacité et la rapidité de développement sont cruciales, se lancer dans l'apprentissage et l'expérimentation avec un nouveau langage aurait pu introduire des retards significatifs dans le projet.
-
-ORM integré Doctrine.
