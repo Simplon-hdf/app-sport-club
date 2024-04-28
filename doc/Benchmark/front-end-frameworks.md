@@ -10,12 +10,12 @@ Un tableau comparatif suit cette introduction, détaillant les résultats de not
 | Popularité (Stars Github, Communauté StackOverflow) | 3       | 2       | 2      |
 | Maturité                 | 3       | 3       | 2      |
 | Releases                 | 3       | 2       | 2      |
-| Bonnes pratiques         | 3       | 3       | 3      |
+| Bonnes pratiques         | 2       | 3       | 3      |
 | Equipe Développement     | 3       | 3       | 2      |
 | Communauté Github        | 3       | 2       | 2      |
 | Documentation            | 3       | 3       | 3      |
 | Tarifs                   | 3 (Gratuit) | 3 (Gratuit) | 3 (Gratuit)|
 | Licence                  | MIT     | MIT     | MIT    |
-| Total                    | 30      | 24      | 25     |
+| Total                    | 29      | 24      | 25     |
 
-ReactJS a émergé comme le grand vainqueur de notre benchmark avec un total de 30 points. En choisissant ReactJS, nous sommes confiants d'avoir sélectionné une technologie qui non seulement répond à nos critères actuels mais qui est également bien équipée pour s'adapter aux évolutions futures du développement web.
+ReactJS a émergé comme le grand vainqueur de notre benchmark avec un total de 29 points. En choisissant ReactJS, nous sommes confiants d'avoir sélectionné une technologie qui non seulement répond à nos critères actuels mais qui est également bien équipée pour s'adapter aux évolutions futures du développement web.
