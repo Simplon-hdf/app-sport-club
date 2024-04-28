@@ -34,7 +34,7 @@ L'implémentation de REST dans notre projet a pour but proposer une API qui soit
 
 ![technical proposition image](assets/imgs/symfony.png)
 
-Le choix de PHP Symfony au lieu d'autres frameworks a été guidé par plusieurs considérations essentielles.
+Le choix de PHP Symfony au lieu d'autres languages a été guidé par plusieurs considérations essentielles.
 
 Premièrement, PHP Symfony est un framework open-source robuste, offrant une structure et des outils qui accélèrent significativement le développement des applications web. La facilité de débogage et la performance globale sont grandement améliorées grâce à ses composants bien conçus et à son système de gestion d'exceptions.
 

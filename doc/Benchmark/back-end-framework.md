@@ -1,23 +1,22 @@
 # 🛠️ Back-end
 
-Dans la suite de notre analyse, nous nous concentrons sur les frameworks Back-end. Un **Benchmark** approfondi a été réalisé, permettant de comparer les différentes solutions du marché selon des critères essentiels : facilité d'utilisation, flexibilité, performance et soutien de la communauté de développeurs.
-Un tableau comparatif suit cette introduction, détaillant les résultats de notre benchmark. Les scores attribués à chaque option révèlent le choix optimal, la valeur la plus élevée désignant la meilleure solution.
+Dans la suite de notre analyse, nous nous concentrons sur les frameworks Back-end. Un **Benchmark** approfondi a été réalisé, permettant de comparer les différentes solutions du marché selon des critères clés tels que la personnalisation, la popularité et le soutien de la communauté de développeurs.
 
-| Critères                 | Laravel | Symfony | CodeIgniter |
-|--------------------------|---------|---------|-------------|
-| Personnalisation         | 3       | 3       | 2           |
-| Rapidité                 | 2       | 3       | 3           |
-| Popularité               | 2       | 3       | 1           |
-| Maturité                 | 2       | 3       | 2           |
-| Releases                 | 3       | 2       | 1           |
-| Bonnes pratiques         | 3       | 3       | 2           |
-| Stars Github             | 2       | 4       | 3           |
-| Equipe Développement     | 3       | 3       | 1           |
-| Communauté Github        | 2       | 3       | 1           |
-| Communauté StackOverflow | 3       | 2       | 1           |
-| Documentation            | 3       | 3       | 2           |
-| Mariage librairies       | 1       | 3       | 2           |
-| Prise Politique          | 1       | 2       | 1           |
-| Tarifs                   | Gratuit | Gratuit | Gratuit     |
-| License                  | MIT     | MIT     | MIT         |
-| Total                    | 26      | 31      | 17          |
+Le tableau comparatif présenté ci-dessous détaille les résultats de notre analyse. Le systeme de point est sur 33 points.Les scores attribués à chaque option révèlent le choix optimal, où la valeur la plus élevée indique la meilleure solution. Le système de notation, qui va de 1 à 3, attribue 1 comme le score le plus bas et 3 comme le plus élevé.
+
+| Critères                                            | PHP    | JavaScript | Python  |
+|-----------------------------------------------------|--------|------------|---------|
+| Personnalisation                                    | 2      | 3          | 3       |
+| Rapidité                                            | 2      | 2          | 2       |
+| Popularité (Stars Github, Communauté StackOverflow) | 2      | 3          | 3       |
+| Maturité                                            | 3      | 2          | 3       |
+| Releases                                            | 2      | 3          | 3       |
+| Bonnes pratiques                                    | 2      | 3          | 3       |
+| Équipe de développement                             | 2      | 3          | 3       |
+| Communauté Github                                   | 2      | 3          | 3       |
+| Documentation                                       | 2      | 3          | 3       |
+| Tarifs                                              | 3 (Gratuit)      | 3 (Gratuit)          | 3 (Gratuit)       |
+| Licence                                             | 3      | 3          | 3       |
+| Total                                               | 25     | 31         | 32      |
+
+Au cours de cet **benchmark**, nous avons comparé trois langages de programmation, Python a émergé avec 32 points comme le langage ayant le score le plus élevé. Cependant, après mûre réflexion, nous avons choisi de développer notre application en PHP. Cette décision a été prise principalement en raison de notre familiarité avec PHP, contrairement à Python et JavaScript, pour lesquels notre maîtrise est moins approfondie. À un moment où l'efficacité et la rapidité de développement sont cruciales, se lancer dans l'apprentissage et l'expérimentation avec un nouveau langage aurait pu introduire des retards significatifs dans le projet.
