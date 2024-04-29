@@ -96,8 +96,16 @@ Nous avons décidé d'opter pour Doctrine ORM de Symfony comme interface de mapp
 En conclusion, Doctrine ORM se présente comme une solution robuste et versatile pour notre projet, alliant sécurité, efficacité et facilité d'utilisation. Sa forte intégration avec Symfony, couplée à son large éventail de fonctionnalités, en fait le choix idéal pour une gestion optimale de nos données.
 
 ## 🛠️ Autres outils
-Dans le développement de notre projet, nous avons opté pour l'utilisation d'outils open source, non seulement pour bénéficier de leur flexibilité et de leur coût réduit, mais aussi pour profiter de leur robustesse et de la richesse de leurs fonctionnalités. Parmi ces outils, Visual Studio Code se distingue comme éditeur de code. Il est particulièrement prisé pour le développement de logiciels grâce à sa flexibilité, ses nombreuses fonctionnalités, sa performance élevée et son modèle de développement ouvert et communautaire.
 
+Dans le développement de notre projet, nous avons opté pour l'utilisation d'outils open source, non seulement pour bénéficier de leur flexibilité et de leur coût réduit, mais aussi pour profiter de leur robustesse et de la richesse de leurs fonctionnalités.
+
+### 💻 Visual Studio COde
+Visual Studio Code se distingue comme éditeur de code. Il est particulièrement prisé pour le développement de logiciels grâce à sa flexibilité, ses nombreuses fonctionnalités, sa performance élevée et son modèle de développement ouvert et communautaire.
+
+### 🐈‍⬛ GitHub
+GitHub, un outil open source incontournable, a joué un rôle clé dans le développement de notre application pour le Bad's Club. Cette plateforme nous a permis de centraliser notre répertoire de code dans un environnement en ligne sécurisé, rendant le projet accessible à toute l'équipe, quel que soit leur emplacement géographique. Grâce à GitHub, nous avons facilité une collaboration continue et efficace, cruciale pour le succès de notre projet.
+
+### 🦊 Firefox
 Firefox, développé par Mozilla, une organisation à but non lucratif, joue également un rôle clé dans notre environnement de développement. Ce navigateur garantit la priorité donnée à la vie privée et à la sécurité des utilisateurs, en bloquant par défaut les traceurs tiers et en offrant des options avancées de confidentialité. Sa capacité de personnalisation est également remarquable, offrant une vaste gamme d'extensions et de thèmes qui permettent aux utilisateurs de personnaliser leur expérience de navigation. Firefox est optimisé pour une navigation rapide et efficace, même avec de nombreux onglets ouverts, et inclut des outils de développement intégrés qui facilitent la création et le débogage de sites web.
 
 ## 🛡️ Stratégie de sécurisation
