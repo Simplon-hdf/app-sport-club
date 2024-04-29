@@ -1,23 +1,21 @@
 # 🎨 Front-end
 
-Dans la suite de notre analyse, nous nous concentrons sur les frameworks Front-end. Un **Benchmark** approfondi a été réalisé, permettant de comparer les différentes solutions du marché selon des critères essentiels : facilité d'utilisation, flexibilité, performance et soutien de la communauté de développeurs.
-Un tableau comparatif suit cette introduction, détaillant les résultats de notre benchmark. Les scores attribués à chaque option révèlent le choix optimal, la valeur la plus élevée désignant la meilleure solution.
+Dans la suite de notre analyse, nous nous concentrons sur les frameworks Front-end. Un **Benchmark** approfondi a été réalisé, permettant de comparer les différentes solutions du marché selon des critères essentiels : documentation, bonnes pratiques et soutien de la communauté de développeurs.
+Un tableau comparatif suit cette introduction, détaillant les résultats de notre benchmark. Les scores, allant de 1 à 3, ont été attribués à chaque option avec 1 étant le score le plus bas et 3 le plus élevé. Les scores attribués à chaque option révèlent le choix optimal.
 
 | Critères                 | ReactJS | Angular | Vue.js |
 |--------------------------|---------|---------|--------|
-| Personnalisation         | 3       | 1       | 2      |
-| Rapidité                 | 2       | 2       | 3      |
-| Popularité               | 3       | 2       | 1      |
-| Maturité                 | 2       | 2       | 2      |
-| Releases                 | 1       | 3       | 2      |
-| Bonnes pratiques         | 3       | 3       | 3      |
-| Stars Github             | 3       | 2       | 3      |
-| Equipe Développement     | 3       | 2       | 1      |
-| Communauté Github        | 2       | 2       | 1      |
-| Communauté StackOverflow | 2       | 3       | 1      |
-| Documentation            | 2       | 3       | 2      |
-| Mariage librairies       | 1       | 1       | 1      |
-| Prise Politique          | 0       | 1       | 1      |
-| Tarifs                   | Gratuit | Gratuit | Gratuit|
-| License                  | MIT     | MIT     | MIT    |
-| Total                    | 27      | 27      | 23     |
+| Personnalisation         | 3       | 2       | 3      |
+| Rapidité                 | 3       | 2       | 3      |
+| Popularité (Stars Github, Communauté StackOverflow) | 3       | 2       | 2      |
+| Maturité                 | 3       | 3       | 2      |
+| Releases                 | 3       | 2       | 2      |
+| Bonnes pratiques         | 2       | 3       | 3      |
+| Equipe Développement     | 3       | 3       | 2      |
+| Communauté Github        | 3       | 2       | 2      |
+| Documentation            | 3       | 3       | 3      |
+| Tarifs                   | 3 (Gratuit) | 3 (Gratuit) | 3 (Gratuit)|
+| Licence                  | MIT     | MIT     | MIT    |
+| Total                    | 29      | 24      | 25     |
+
+ReactJS a émergé comme le grand vainqueur de notre benchmark avec un total de 29 points. En choisissant ReactJS, nous sommes confiants d'avoir sélectionné une technologie qui non seulement répond à nos critères actuels mais qui est également bien équipée pour s'adapter aux évolutions futures du développement web.

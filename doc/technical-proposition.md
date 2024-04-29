@@ -6,6 +6,10 @@ Dans cette présentation technique, nous détaillerons les choix techniques rete
 
 Cette présentation technique a pour objectif de fournir une vision claire et précise des choix techniques retenus, afin de garantir la cohérence et la pérennité du projet. Elle permettra également de faciliter la communication entre les différents acteurs du projet, en fournissant un référentiel technique commun.
 
+Nous avons établi un cadre de référence détaillé pour guider nos choix technologiques, répondant ainsi à divers critères spécifiques. Ce cadre a été synthétisé dans un tableau de questions globales que nous avons soigneusement rempli, permettant d'assurer une cohérence avec nos objectifs et exigences.
+
+Ce document peut être consulté en cliquant <a href="benchmark/global-questions.md">ici</a>.
+
 ## 👀 Identification des technologies
 
 | Technologies  | Description                                                                                                     |
@@ -34,7 +38,7 @@ L'implémentation de REST dans notre projet a pour but proposer une API qui soit
 
 ![technical proposition image](assets/imgs/symfony.png)
 
-Le choix de PHP Symfony au lieu d'autres frameworks a été guidé par plusieurs considérations essentielles.
+Le choix de PHP Symfony au lieu d'autres languages a été guidé par plusieurs considérations essentielles.
 
 Premièrement, PHP Symfony est un framework open-source robuste, offrant une structure et des outils qui accélèrent significativement le développement des applications web. La facilité de débogage et la performance globale sont grandement améliorées grâce à ses composants bien conçus et à son système de gestion d'exceptions.
 
@@ -62,7 +66,7 @@ En somme, l'alliance de React et TypeScript s'aligne avec notre vision de créer
 
 Ce document peut être consulté en cliquant <a href="benchmark/front-end-frameworks.md">ici</a>.
 
-## 📑 Proposition de base de donnée<
+## 📑 Proposition de base de donnée
 
 ![technical proposition image](assets/imgs/postgre.png)
 
@@ -91,7 +95,18 @@ Nous avons décidé d'opter pour Doctrine ORM de Symfony comme interface de mapp
 
 En conclusion, Doctrine ORM se présente comme une solution robuste et versatile pour notre projet, alliant sécurité, efficacité et facilité d'utilisation. Sa forte intégration avec Symfony, couplée à son large éventail de fonctionnalités, en fait le choix idéal pour une gestion optimale de nos données.
 
-Ce document peut être consulté en cliquant <a href="benchmark/orm.md">ici</a>.
+## 🛠️ Autres outils
+
+Dans le développement de notre projet, nous avons opté pour l'utilisation d'outils open source, non seulement pour bénéficier de leur flexibilité et de leur coût réduit, mais aussi pour profiter de leur robustesse et de la richesse de leurs fonctionnalités.
+
+### 💻 Visual Studio COde
+Visual Studio Code se distingue comme éditeur de code. Il est particulièrement prisé pour le développement de logiciels grâce à sa flexibilité, ses nombreuses fonctionnalités, sa performance élevée et son modèle de développement ouvert et communautaire.
+
+### 🐈‍⬛ GitHub
+GitHub, un outil open source incontournable, a joué un rôle clé dans le développement de notre application pour le Bad's Club. Cette plateforme nous a permis de centraliser notre répertoire de code dans un environnement en ligne sécurisé, rendant le projet accessible à toute l'équipe, quel que soit leur emplacement géographique. Grâce à GitHub, nous avons facilité une collaboration continue et efficace, cruciale pour le succès de notre projet.
+
+### 🦊 Firefox
+Firefox, développé par Mozilla, une organisation à but non lucratif, joue également un rôle clé dans notre environnement de développement. Ce navigateur garantit la priorité donnée à la vie privée et à la sécurité des utilisateurs, en bloquant par défaut les traceurs tiers et en offrant des options avancées de confidentialité. Sa capacité de personnalisation est également remarquable, offrant une vaste gamme d'extensions et de thèmes qui permettent aux utilisateurs de personnaliser leur expérience de navigation. Firefox est optimisé pour une navigation rapide et efficace, même avec de nombreux onglets ouverts, et inclut des outils de développement intégrés qui facilitent la création et le débogage de sites web.
 
 ## 🛡️ Stratégie de sécurisation
 
