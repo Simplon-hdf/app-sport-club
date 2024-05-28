@@ -99,7 +99,7 @@ En conclusion, Doctrine ORM se présente comme une solution robuste et versatile
 
 Dans le développement de notre projet, nous avons opté pour l'utilisation d'outils open source, non seulement pour bénéficier de leur flexibilité et de leur coût réduit, mais aussi pour profiter de leur robustesse et de la richesse de leurs fonctionnalités.
 
-### 💻 Visual Studio COde
+### 💻 Visual Studio Code
 Visual Studio Code se distingue comme éditeur de code. Il est particulièrement prisé pour le développement de logiciels grâce à sa flexibilité, ses nombreuses fonctionnalités, sa performance élevée et son modèle de développement ouvert et communautaire.
 
 ### 🐈‍⬛ GitHub
