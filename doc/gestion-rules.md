@@ -30,11 +30,11 @@
 # 🏟️ Gestion de reservations
 - La Réservation contient l'id du Membre qui reserve, la date et le Terrain
 - La Réservation doit être faite au moins 6 heures à l'avance
-- Les Terrains ne peuvent être réservés que par des Membres
-- Un Terrain ne peut être réservé que s'il est disponible
+- Les Terrains ne peuvent être Réservés que par des Membres
+- Un Terrain ne peut être Réservé que s'il est disponible
 - Un Membre ne peut pas effectuer plusieurs Réservations pour un même Créneau horaire
 - Affichage en temps réel de la disponibilité des Terrains
-- Une Réservation à une duré de 1h
+- Une Réservation à une durée de 1h
 
 # 🚫 Gestion des Annulations
 - Les Réservations peuvent être annulées jusqu'à 6 heures avant l'heure prévue sans pénalité
@@ -68,16 +68,16 @@
 # ✅ Confirmation de Réservation Match making
 - Propose automatiquement la première plage horaire disponible concordante
 - Nécessite une confirmation mutuelle des deux parties pour finaliser la Réservation
-- Lorsque la Réservation est confirmée mutuellement, chaque partie reçoit une notification finale qui confirme les détails du match, y compris le lieu, la date et l'heure
+- Lorsque la Réservation est confirmée mutuellement, chaque Membre reçoit une notification finale qui confirme les détails du match, y compris le Terrain, la date et l'heure
 
 # Gestion des Terrains
-- Un Terrain contient un numero, un sport, une disponibilité, un créneau
-- Un Terrain peut être reservé si il est disponible
+- Un Terrain contient un numero, un Sport, une Disponibilité, un Créneau
+- Un Terrain peut être Reservé si il est disponible
 
 # ⭐ Gestion de la Notation des Partenaires Match making
-- Les Membres peuvent noter leurs partenaires après chaque match, sur une échelle de 1 à 5 étoiles et ajouter un message
+- Un Membre peut noter un autre Membre après un match, sur une échelle de 1 à 5 étoiles et ajouter un message
 - Les notations affichent l'identité du Membre qui la noté
-- Le score moyen de chaque Membre influence les futures propositions de match
+- Le score moyen de chaque Membre influence les futures propositions sur le match making
 
 # 🚷 Bannir/Ignorer un Membre
 - À côté de chaque Membre listé dans les suggestions du système de matching, un bouton "Bannir/Ignorer leMembre" doit être affiché
@@ -91,4 +91,3 @@
 # 👤 Profil Administrateur
 - L'Administrateur peut créer, modifier et annuler des Réservations de Terrains
 - L'Administrateur peut consulter des statistiques détaillées exemple : sur l'utilisation des Terrains, les habitudes de Réservation des Membres, et les revenus générés par les abonnements, taux d'occupation d'un Terrain etc ...
-- L'Administrateur peut gérer les Membres, consulter et modifier leurs informations
