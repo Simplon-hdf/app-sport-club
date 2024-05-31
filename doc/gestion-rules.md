@@ -73,6 +73,7 @@
 # Gestion des Terrains
 - Un Terrain contient un numero, un Sport, une Disponibilité, un Créneau
 - Un Terrain peut être Reservé si il est disponible
+- La disponibilité de chaque Terrain est de 8h à 23h
 
 # ⭐ Gestion de la Notation des Partenaires Match making
 - Un Membre peut noter un autre Membre après un match, sur une échelle de 1 à 5 étoiles et ajouter un message
