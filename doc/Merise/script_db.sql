@@ -104,7 +104,6 @@ CREATE TABLE Members_Sports(
    sport_id INTEGER,
    level VARCHAR(50)  NOT NULL,
    PRIMARY KEY(member_id, sport_id),
-   UNIQUE(level),
    FOREIGN KEY(member_id) REFERENCES Members(member_id),
    FOREIGN KEY(sport_id) REFERENCES Sports(sport_id)
 );
