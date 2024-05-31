@@ -39,13 +39,12 @@ CREATE TABLE Sport_Fields(
 
 CREATE TABLE Fields_Availabilities(
    field_availability_id SERIAL,
-   field_start_time TIMESTAMP NOT NULL,
+   field_start_time TIME NOT NULL,
+   field_end_time TIME NOT NULL,
    availability_date DATE NOT NULL,
    sport_field_id INTEGER NOT NULL,
    PRIMARY KEY(field_availability_id),
    FOREIGN KEY(sport_field_id) REFERENCES Sport_Fields(sport_field_id),
-   CONSTRAINT check_availability_duration
-   CHECK (field_start_time + INTERVAL '1 hour' <= field_start_time::date + INTERVAL '1 day')
 );
 
 CREATE TABLE Days(
@@ -58,9 +57,9 @@ CREATE TABLE Days(
 CREATE TABLE Admins(
    admin_uuid UUID DEFAULT uuid_generate_v4() NOT NULL,
    admin_first_name VARCHAR(255)  NOT NULL,
-   admin_password VARCHAR(255)  NOT NULL,
    admin_last_name VARCHAR(255)  NOT NULL,
    admin_email VARCHAR(255)  NOT NULL,
+   admin_password VARCHAR(255)  NOT NULL,
    PRIMARY KEY(admin_uuid),
    UNIQUE(admin_email)
 );
