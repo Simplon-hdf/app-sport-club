@@ -1,11 +1,15 @@
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+
+SET TIME ZONE 'Europe/Paris';
+
 CREATE TABLE Users(
-   user_id UUID DEFAULT uuid_generate_v4() NOT NULL,
+   user_uuid UUID DEFAULT uuid_generate_v4() NOT NULL,
    first_name VARCHAR(50)  NOT NULL,
    last_name VARCHAR(50)  NOT NULL,
    email VARCHAR(255)  NOT NULL,
    password VARCHAR(255)  NOT NULL,
    birthdate DATE NOT NULL,
-   PRIMARY KEY(user_id),
+   PRIMARY KEY(user_uuid),
    UNIQUE(email)
 );
 
@@ -35,11 +39,12 @@ CREATE TABLE Sport_Fields(
 
 CREATE TABLE Fields_Availabilities(
    field_availability_id SERIAL,
-   field_start_time TIMESTAMP NOT NULL,
+   field_start_time TIME NOT NULL,
+   field_end_time TIME NOT NULL,
    availability_date DATE NOT NULL,
    sport_field_id INTEGER NOT NULL,
    PRIMARY KEY(field_availability_id),
-   FOREIGN KEY(sport_field_id) REFERENCES Sport_Fields(sport_field_id)
+   FOREIGN KEY(sport_field_id) REFERENCES Sport_Fields(sport_field_id),
 );
 
 CREATE TABLE Days(
@@ -50,25 +55,25 @@ CREATE TABLE Days(
 );
 
 CREATE TABLE Admins(
-   admin_id UUID DEFAULT uuid_generate_v4() NOT NULL,
+   admin_uuid UUID DEFAULT uuid_generate_v4() NOT NULL,
    admin_first_name VARCHAR(255)  NOT NULL,
-   admin_password VARCHAR(255)  NOT NULL,
    admin_last_name VARCHAR(255)  NOT NULL,
    admin_email VARCHAR(255)  NOT NULL,
-   PRIMARY KEY(admin_id),
+   admin_password VARCHAR(255)  NOT NULL,
+   PRIMARY KEY(admin_uuid),
    UNIQUE(admin_email)
 );
 
 CREATE TABLE Members(
-   member_id INTEGER,
+   member_id SERIAL,
    photo_url VARCHAR(255) ,
    has_match_making BOOLEAN NOT NULL,
    address_id INTEGER NOT NULL,
-   user_id CHAR(36)  NOT NULL,
+   user_uuid UUID DEFAULT uuid_generate_v4() NOT NULL,
    PRIMARY KEY(member_id),
-   UNIQUE(user_id),
+   UNIQUE(user_uuid),
    FOREIGN KEY(address_id) REFERENCES Addresses(address_id),
-   FOREIGN KEY(user_id) REFERENCES Users(user_id)
+   FOREIGN KEY(user_uuid) REFERENCES Users(user_uuid)
 );
 
 CREATE TABLE Members_Reservations(
@@ -99,7 +104,6 @@ CREATE TABLE Members_Sports(
    sport_id INTEGER,
    level VARCHAR(50)  NOT NULL,
    PRIMARY KEY(member_id, sport_id),
-   UNIQUE(level),
    FOREIGN KEY(member_id) REFERENCES Members(member_id),
    FOREIGN KEY(sport_id) REFERENCES Sports(sport_id)
 );
